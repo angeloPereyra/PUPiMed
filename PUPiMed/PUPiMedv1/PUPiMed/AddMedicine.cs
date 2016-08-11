@@ -121,10 +121,11 @@ namespace PUPiMed
                 }
             }
         }
-
+        ArrayList aListCode;
+        Manufacturer mn = new Manufacturer();
         private void AddMedicine_Load(object sender, EventArgs e)
         {
-            newManufacturer = Manufacturer.fillComboBox(cbManufacturer);
+            newManufacturer = !mn.fillComboBox( cbManufacturer,"SELECT * FROM tblManufacturer;", out aListCode);
             if (newManufacturer)
             {
                 cbManufacturer.Visible = false;

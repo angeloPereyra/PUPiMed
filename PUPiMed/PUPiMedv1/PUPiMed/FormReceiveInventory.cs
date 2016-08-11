@@ -1,5 +1,7 @@
-﻿using MetroFramework.Forms;
+﻿using MetroFramework.Controls;
+using MetroFramework.Forms;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,12 +15,26 @@ namespace PUPiMed
 {
     public partial class FormReceiveInventory : MetroForm
     {
+        ArrayList alistCode;
+        Manufacturer mn = new Manufacturer();
+
         public FormReceiveInventory()
         {
             InitializeComponent();
             cbType.SelectedIndex = 0;
-            //cbItem.SelectedIndex = 0;
-            //cbSupplier.SelectedIndex = 0;
+            if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=1 AND boolItemDeleted=FALSE;", out alistCode))
+            {
+                //cbName.Items.Add("[Empty Library]");
+                pbAddItem.Focus();
+            }
+            else
+            {
+                txtCode.Text = alistCode[0].ToString();
+                
+                //cbItem.SelectedIndex = 0;
+                //cbSupplier.SelectedIndex = 0;
+            }cbName.SelectedIndex = 0;
+
 
         }
 
@@ -40,11 +56,6 @@ namespace PUPiMed
         private void btncancel_Click(object sender, EventArgs e)
         {
             this.Dispose();
-        }
-
-        private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void metroTextBox1_Click(object sender, EventArgs e)
@@ -77,6 +88,74 @@ namespace PUPiMed
             }
         }
 
-        
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            if(getValues())
+            {
+
+            }
+        }
+
+        private bool getValues()
+        {
+            bool okay = true;
+            strType = cbType.SelectedItem.ToString();
+            strCode = txtCode.Text;
+            strName = cbName.SelectedItem.ToString();
+            strQty = txtQty.Text;
+            strSupplier = cbSupplier.SelectedItem.ToString();
+            strDate = dtReceived.Value.ToString();
+
+            if(string.IsNullOrEmpty(strType)|| string.IsNullOrEmpty(strCode)|| string.IsNullOrEmpty(strName)
+                || string.IsNullOrEmpty(strQty)|| string.IsNullOrEmpty(strSupplier)|| string.IsNullOrEmpty(strDate))
+            {
+                okay = false;
+            }
+
+           return okay;
+        }
+
+        string strType, strCode, strName, strQty, strSupplier, strDate;
+
+        private void cbType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbType.SelectedItem.Equals("Medicine"))
+            {
+                if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=1 AND boolItemDeleted=0;", out alistCode))
+                {
+                    //cbName.Items.Add("[Empty Library]");
+                    pbAddItem.Focus();
+                }
+                else cbName.SelectedIndex = 0;
+                    
+            }
+            else if (cbType.SelectedItem.Equals("Supply"))
+            {
+                if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=2 AND boolItemDeleted=0;", out alistCode))
+                {
+                    //cbName.Items.Add("[Empty Library]");
+                    pbAddItem.Focus();
+                }
+                else cbName.SelectedIndex = 0;
+            }
+            else if (cbType.SelectedItem.Equals("Equipment"))
+            {
+                if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=3 AND boolItemDeleted=0;",out alistCode))
+                {
+
+                    //cbName.Items.Add("[Empty Library]");
+                    pbAddItem.Focus();
+                }
+                else cbName.SelectedIndex = 0;
+            }
+            else
+                cbType.Focus();
+        }
+
+        private void cbName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(cbName.SelectedIndex<=alistCode.Count)
+                txtCode.Text = alistCode[cbName.SelectedIndex].ToString();
+        }
     }
 }
