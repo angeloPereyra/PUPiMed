@@ -2,6 +2,7 @@
 using MetroFramework.Forms;
 using MySql.Data.MySqlClient;
 using System;
+using System.Collections;
 using System.Data;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
@@ -21,18 +22,19 @@ namespace PUPiMed
         int intMin;
         int intMax;
         SmartCounter sc;
-
-        public AddMedicine()
-        {
-            choice = 0;
-            InitializeComponent();
-        }
+        bool newManufacturer = false;
 
         public AddMedicine(UCItemMedicine parent)
         {
             this.parent = parent;
             InitializeComponent();
 
+        }
+
+        public AddMedicine()
+        {
+            choice = 0;
+            InitializeComponent();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -122,6 +124,22 @@ namespace PUPiMed
 
         private void AddMedicine_Load(object sender, EventArgs e)
         {
+            newManufacturer = Manufacturer.fillComboBox(cbManufacturer);
+            if (newManufacturer)
+            {
+                cbManufacturer.Visible = false;
+                txtManu.Visible = true;
+                lblManu.Text = "Manufacturer Code : ";
+                lblManuName.Text = "Manufacturer Name : ";
+            }
+            else
+            {
+                cbManufacturer.Visible = true;
+                txtManu.Visible = false;
+                lblManu.Text = "Manufacturer Name : ";
+                lblManuName.Text = "Others : ";
+            }
+            
 
             if (choice == 1)
             {
@@ -156,9 +174,59 @@ namespace PUPiMed
             }
         }
 
-        private void btncancel_Click(object sender, EventArgs e)
+        private void metroLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbltype_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblother_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void medcode_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbManufacturer_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if ((string)cbManufacturer.SelectedItem=="Others...")
+            {
+                txtOther.Enabled = true;
+            }
+            else
+            {
+                txtOther.Enabled = false;
+            }
+        }
+
+        
+
+        private void btncancel_Click_1(object sender, EventArgs e)
         {
             this.Dispose();
         }
+
     }
 }
