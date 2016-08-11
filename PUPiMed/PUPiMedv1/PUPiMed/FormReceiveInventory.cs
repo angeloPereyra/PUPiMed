@@ -159,3 +159,29 @@ namespace PUPiMed
         }
     }
 }
+
+
+/*
+There are several ways to do it, but here is one solution (for 4 columns).
+
+string[] row1 = { "s1", "s2", "s3" };
+listView1.Items.Add("Column1Text").SubItems.AddRange(row1);
+And a more verbose way is here:
+
+ListViewItem item1 = new ListViewItem("Something");
+item1.SubItems.Add("SubItem1a");
+item1.SubItems.Add("SubItem1b");
+item1.SubItems.Add("SubItem1c");
+
+ListViewItem item2 = new ListViewItem("Something2");
+item2.SubItems.Add("SubItem2a");
+item2.SubItems.Add("SubItem2b");
+item2.SubItems.Add("SubItem2c");
+
+ListViewItem item3 = new ListViewItem("Something3");
+item3.SubItems.Add("SubItem3a");
+item3.SubItems.Add("SubItem3b");
+item3.SubItems.Add("SubItem3c");
+
+ListView1.Items.AddRange(new ListViewItem[] {item1,item2,item3});
+*/
