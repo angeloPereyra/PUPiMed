@@ -31,9 +31,12 @@ namespace PUPiMed
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             label1.Text = DateTime.Now.ToString();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

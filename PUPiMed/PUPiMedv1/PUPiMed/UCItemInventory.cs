@@ -18,32 +18,35 @@ namespace PUPiMed
             string strQuery = 
                 "select a.strItemCode AS 'Item Code', "+
                    " a.strItemName AS 'Item Name',"+
-                   " SUM(b.intAcqDQty) AS 'Quantity',"+
+                   " SUM(b.intReceQty) AS 'Quantity',"+
                    " ifnull(c.intBDIDQty, 0) + ifnull(d.intLogDQty, 0) AS 'Consumed'"+
-                " from tblItem a INNER JOIN tblacqudetail b on b.strAcqDItemCode = a.strItemCode"+
+                " from tblItem a INNER JOIN tblrecedetail b on b.strReceItemCode = a.strItemCode"+
                        " LEFT JOIN tbllogsdetail d on a.strItemCode = d.intLogDQty"+
-"                        LEFT JOIN tblbranchdistributionitemdetail c on a.strItemCode = c.strBDIDItemCode"+
+"                        LEFT JOIN tblbranitemdetail c on a.strItemCode = c.strBDIDItemCode"+
                 " where boolItemDeleted = 0 "+
                 " group by strItemCode;";
             using (Program.conn)
             {
                 using (MySqlCommand cmd = new MySqlCommand(strQuery, Program.conn))
                 {
-                    cmd.CommandType = CommandType.Text;
                     using (MySqlDataAdapter sda = new MySqlDataAdapter(cmd))
                     {
-                        using (DataTable dt = new DataTable())
+                        DataTable dt = new DataTable();
+                        try
                         {
-                            if (dt != null)
-                            {
-                                sda.Fill(dt);
-                                gridItemInventory.DataSource = dt;
-                            }
-                            else
-                            {
-                            }
+                            sda.Fill(dt);
+                            gridItemInventory.DataSource = dt;
 
                         }
+                        catch(Exception ex)
+                        {
+                            MessageBox.Show(ex.Message.ToString());
+                        }
+                        finally
+                        {
+                            dt.Dispose();
+                        }
+
                     }
                 }
             }

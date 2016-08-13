@@ -49,7 +49,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::PUPiMed.Properties.Resources.Medical_78_5121;
+            this.pictureBox12.Image = global::PUPiMed.Properties.Resources.wheelchair_teal;
             this.pictureBox12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox12.Location = new System.Drawing.Point(8, 6);
             this.pictureBox12.Name = "pictureBox12";
@@ -61,7 +61,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox3.Image = global::PUPiMed.Properties.Resources._00deletefga1;
+            this.pictureBox3.Image = global::PUPiMed.Properties.Resources.cancel_teal_box;
             this.pictureBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox3.Location = new System.Drawing.Point(684, 86);
             this.pictureBox3.Name = "pictureBox3";
@@ -73,7 +73,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = global::PUPiMed.Properties.Resources._00editedit;
+            this.pictureBox2.Image = global::PUPiMed.Properties.Resources.edit_teal_box;
             this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox2.Location = new System.Drawing.Point(579, 86);
             this.pictureBox2.Name = "pictureBox2";
@@ -85,7 +85,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::PUPiMed.Properties.Resources._00add___Copy1;
+            this.pictureBox1.Image = global::PUPiMed.Properties.Resources.add_teal_box;
             this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox1.Location = new System.Drawing.Point(474, 86);
             this.pictureBox1.Name = "pictureBox1";

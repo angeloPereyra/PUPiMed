@@ -1,8 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PUPiMed
@@ -21,7 +18,18 @@ namespace PUPiMed
             Application.Run(new MainForm());
 
         }
-        public static MySqlConnection conn = new MySqlConnection("server= localhost; user id =root; password=root; database=dbmedicalclinic;");
+
+        static string user = "root;";
+        static string server = "localhost;";
+        static string pass = "root;";
+        static string db = "dbmedicalclinic;";
+
+        public static MySqlConnection conn = new MySqlConnection(
+            "server= "+server+
+            "user id ="+user+
+            "password="+pass+
+            "database="+db
+        );
 
         public static bool ExecuteQuery(string query)
         {

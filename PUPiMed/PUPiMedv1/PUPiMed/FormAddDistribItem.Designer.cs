@@ -693,7 +693,7 @@
             this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox12.Image = global::PUPiMed.Properties.Resources._01deliver2;
+            this.pictureBox12.Image = global::PUPiMed.Properties.Resources.deliver_teal;
             this.pictureBox12.Location = new System.Drawing.Point(15, 118);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(313, 204);
@@ -707,7 +707,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.BackgroundImage = global::PUPiMed.Properties.Resources._00delete;
+            this.pictureBox2.BackgroundImage = global::PUPiMed.Properties.Resources.cancel_teal_box;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(764, 414);
             this.pictureBox2.Name = "pictureBox2";
@@ -741,7 +741,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::PUPiMed.Properties.Resources._00add___Copy1;
+            this.pictureBox1.BackgroundImage = global::PUPiMed.Properties.Resources.add_teal_box;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(645, 414);
             this.pictureBox1.Name = "pictureBox1";

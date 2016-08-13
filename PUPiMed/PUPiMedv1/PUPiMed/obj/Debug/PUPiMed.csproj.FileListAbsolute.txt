@@ -1,231 +1,31 @@
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\bin\Debug\PUPiMed.exe.config
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\bin\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\bin\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\bin\Debug\MetroFramework.Design.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\bin\Debug\MetroFramework.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\bin\Debug\MaterialSkin.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.ucMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.AddEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.AddMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.AddPatient.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.AddSupply.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.UCEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMed\PUPiMed\obj\Debug\PUPiMed.UCSUpply.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.config
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddEquipment.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddMedicine.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddPatient.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupply.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCEquipment.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.ucMedicine.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCSUpply.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCReceive_Inventory.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemInventory.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemLibrary.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddDistribItem.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormReceiveInventory.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemDistribution.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCAdminTab.resources
-C:\Users\User\Desktop\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCFacultyTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.config
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MaterialSkin.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.Design.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddPatient.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupply.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddDistribItem.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormReceiveInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCAdminTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCFacultyTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemDistribution.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemLibrary.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCReceive_Inventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCSupply.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.ReceiveInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Fabric.Plugin.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\-Medical Inventory Management System\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.PUPiMed.exe.config
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.config
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.DLL
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.xml
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.xml
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.PUPiMed.exe.config
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddEquipment.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddMedicine.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddPatient.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupply.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddDistribItem.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormReceiveInventory.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.ReceiveInventory.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCAdminTab.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCEquipment.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCFacultyTab.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemDistribution.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemInventory.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemLibrary.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCMedicine.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCReceive_Inventory.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCSupply.resources
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
-C:\Users\User\Desktop\Pupimed 0806160646\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Login.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.config
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.DLL
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Fabric.Plugin.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.PUPiMed.exe.config
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddPatient.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupply.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddDistribItem.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormReceiveInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Login.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.ReceiveInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCAdminTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCFacultyTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemDistribution.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemLibrary.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCReceive_Inventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemSupply.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed Aug8,2016\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.config
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.DLL
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Fabric.Plugin.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.dll
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.xml
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.PUPiMed.exe.config
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddPatient.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupply.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddDistribItem.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormReceiveInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Login.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.ReceiveInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCAdminTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemEquipment.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCFacultyTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemDistribution.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemInventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemLibrary.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemMedicine.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCReceive_Inventory.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemSupply.resources
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\COLLEGE Files\3RD YEAR\[]Medical Inventory Management System\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.config
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MaterialSkin.dll
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.Design.dll
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.dll
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.dll
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.PUPiMed.exe.config
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddEquipment.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddMedicine.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddPatient.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupply.resources
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddEquipment.resources
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddMedicine.resources
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddPatient.resources
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddSupply.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddDistribItem.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormReceiveInventory.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Login.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.ReceiveInventory.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCAdminTab.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemEquipment.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCFacultyTab.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemDistribution.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemInventory.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemLibrary.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemMedicine.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCReceive_Inventory.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemSupply.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.dll
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.dll
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Fabric.Plugin.dll
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.dll
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.xml
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF5.xml
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Web.xml
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItem.resources

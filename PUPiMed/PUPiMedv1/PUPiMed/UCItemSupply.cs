@@ -14,7 +14,7 @@ namespace PUPiMed
 {
     public partial class UCItemSupply : UserControl
     {
-        AddSupply supplyForm;
+        FormAddSupply supplyForm;
 
         public UCItemSupply()
         {
@@ -54,7 +54,7 @@ namespace PUPiMed
         }
         private void mbAdd_Click(object sender, EventArgs e)
         {
-            supplyForm = new AddSupply(this);
+            supplyForm = new FormAddSupply(this);
             supplyForm.choice = 0;
             supplyForm.Show();
         }
@@ -63,7 +63,7 @@ namespace PUPiMed
         {
             if (gridSupply.CurrentRow != null)
             {
-                supplyForm = new AddSupply(this);
+                supplyForm = new FormAddSupply(this);
                 supplyForm.choice = 1;
                 supplyForm.txtCode.Text = gridSupply.CurrentRow.Cells[0].Value.ToString();
                 supplyForm.txtName.Text = gridSupply.CurrentRow.Cells[1].Value.ToString();

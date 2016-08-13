@@ -28,15 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Yoe");
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Ugm",
-            "Hi",
-            "Hello",
-            "Hasslebruh"}, -1);
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gridRI = new MetroFramework.Controls.MetroGrid();
             this.type = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.code = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,13 +42,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btncancel = new MetroFramework.Controls.MetroButton();
             this.btnSave = new MetroFramework.Controls.MetroButton();
-            this.materialListView1 = new MaterialSkin.Controls.MaterialListView();
-            this.listType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listQty = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listSupplier = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listDateReceived = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cbType = new MetroFramework.Controls.MetroComboBox();
             this.txtQty = new MetroFramework.Controls.MetroTextBox();
             this.dtReceived = new MetroFramework.Controls.MetroDateTime();
@@ -69,6 +56,15 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pbAddItem = new System.Windows.Forms.PictureBox();
             this.cbName = new MetroFramework.Controls.MetroComboBox();
+            this.listType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listQty = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listSupplier = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listDateReceived = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listReceived = new MaterialSkin.Controls.MaterialListView();
+            this.txtRCode = new MetroFramework.Controls.MetroTextBox();
+            this.lblCode = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.gridRI)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAddSupplier)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -87,14 +83,14 @@
             this.gridRI.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridRI.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.gridRI.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(201)))), ((int)(((byte)(206)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridRI.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(201)))), ((int)(((byte)(206)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridRI.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.gridRI.ColumnHeadersHeight = 40;
             this.gridRI.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.gridRI.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -105,14 +101,14 @@
             this.supplier,
             this.received,
             this.ok});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(201)))), ((int)(((byte)(206)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridRI.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(201)))), ((int)(((byte)(206)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridRI.DefaultCellStyle = dataGridViewCellStyle5;
             this.gridRI.EnableHeadersVisualStyles = false;
             this.gridRI.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.gridRI.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -121,14 +117,14 @@
             this.gridRI.Name = "gridRI";
             this.gridRI.ReadOnly = true;
             this.gridRI.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(201)))), ((int)(((byte)(206)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridRI.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(201)))), ((int)(((byte)(206)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridRI.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.gridRI.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.gridRI.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.gridRI.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Teal;
@@ -216,9 +212,9 @@
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(125, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(374, 49);
+            this.label1.Size = new System.Drawing.Size(299, 49);
             this.label1.TabIndex = 26;
-            this.label1.Text = "Receive Inventory";
+            this.label1.Text = "Receive Items";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btncancel
@@ -257,64 +253,6 @@
             this.btnSave.UseSelectable = true;
             this.btnSave.UseStyleColors = true;
             // 
-            // materialListView1
-            // 
-            this.materialListView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.listType,
-            this.listCode,
-            this.listName,
-            this.listQty,
-            this.listSupplier,
-            this.listDateReceived});
-            this.materialListView1.Depth = 0;
-            this.materialListView1.Font = new System.Drawing.Font("Roboto", 24F);
-            this.materialListView1.FullRowSelect = true;
-            this.materialListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            this.materialListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5,
-            listViewItem6});
-            this.materialListView1.Location = new System.Drawing.Point(10, 207);
-            this.materialListView1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialListView1.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialListView1.MultiSelect = false;
-            this.materialListView1.Name = "materialListView1";
-            this.materialListView1.OwnerDraw = true;
-            this.materialListView1.Size = new System.Drawing.Size(781, 420);
-            this.materialListView1.TabIndex = 94;
-            this.materialListView1.UseCompatibleStateImageBehavior = false;
-            this.materialListView1.View = System.Windows.Forms.View.Details;
-            // 
-            // listType
-            // 
-            this.listType.Text = "Item Type";
-            this.listType.Width = 85;
-            // 
-            // listCode
-            // 
-            this.listCode.Text = "Item Code";
-            this.listCode.Width = 121;
-            // 
-            // listName
-            // 
-            this.listName.Text = "Name";
-            this.listName.Width = 165;
-            // 
-            // listQty
-            // 
-            this.listQty.Text = "Quantity";
-            this.listQty.Width = 94;
-            // 
-            // listSupplier
-            // 
-            this.listSupplier.Text = "Supplier";
-            this.listSupplier.Width = 140;
-            // 
-            // listDateReceived
-            // 
-            this.listDateReceived.Text = "Date Received";
-            this.listDateReceived.Width = 233;
-            // 
             // cbType
             // 
             this.cbType.DisplayMember = "Medicine";
@@ -337,7 +275,6 @@
             // 
             // txtQty
             // 
-            this.txtQty.DisplayIcon = false;
             this.txtQty.Lines = new string[0];
             this.txtQty.Location = new System.Drawing.Point(388, 164);
             this.txtQty.MaxLength = 32767;
@@ -356,6 +293,7 @@
             this.dtReceived.Checked = false;
             this.dtReceived.DisplayFocus = true;
             this.dtReceived.FontWeight = MetroFramework.MetroDateTimeWeight.Light;
+            this.dtReceived.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtReceived.Location = new System.Drawing.Point(610, 164);
             this.dtReceived.MinimumSize = new System.Drawing.Size(0, 29);
             this.dtReceived.Name = "dtReceived";
@@ -363,6 +301,7 @@
             this.dtReceived.Style = MetroFramework.MetroColorStyle.Teal;
             this.dtReceived.TabIndex = 107;
             this.dtReceived.UseStyleColors = true;
+            this.dtReceived.ValueChanged += new System.EventHandler(this.dtReceived_ValueChanged);
             // 
             // cbSupplier
             // 
@@ -376,7 +315,6 @@
             // 
             // txtCode
             // 
-            this.txtCode.DisplayIcon = false;
             this.txtCode.Enabled = false;
             this.txtCode.Lines = new string[0];
             this.txtCode.Location = new System.Drawing.Point(137, 164);
@@ -412,7 +350,7 @@
             this.metroButton1.AccessibleName = "btnadd";
             this.metroButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.metroButton1.Highlight = true;
-            this.metroButton1.Location = new System.Drawing.Point(809, 280);
+            this.metroButton1.Location = new System.Drawing.Point(809, 235);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(74, 29);
             this.metroButton1.Style = MetroFramework.MetroColorStyle.Teal;
@@ -421,13 +359,14 @@
             this.metroButton1.UseCustomBackColor = true;
             this.metroButton1.UseSelectable = true;
             this.metroButton1.UseStyleColors = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // metroButton2
             // 
             this.metroButton2.AccessibleName = "btnadd";
             this.metroButton2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.metroButton2.Highlight = true;
-            this.metroButton2.Location = new System.Drawing.Point(809, 245);
+            this.metroButton2.Location = new System.Drawing.Point(809, 199);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(74, 29);
             this.metroButton2.Style = MetroFramework.MetroColorStyle.Teal;
@@ -443,7 +382,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pbAddSupplier.BackColor = System.Drawing.Color.Transparent;
-            this.pbAddSupplier.BackgroundImage = global::PUPiMed.Properties.Resources._00add___Copy;
+            this.pbAddSupplier.BackgroundImage = global::PUPiMed.Properties.Resources.add_gray_box;
             this.pbAddSupplier.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbAddSupplier.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbAddSupplier.Location = new System.Drawing.Point(582, 166);
@@ -459,7 +398,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.BackgroundImage = global::PUPiMed.Properties.Resources._00delete;
+            this.pictureBox2.BackgroundImage = global::PUPiMed.Properties.Resources.cancel_teal_box;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(772, 649);
             this.pictureBox2.Name = "pictureBox2";
@@ -474,7 +413,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::PUPiMed.Properties.Resources._00add___Copy1;
+            this.pictureBox1.BackgroundImage = global::PUPiMed.Properties.Resources.add_teal_box;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(653, 649);
             this.pictureBox1.Name = "pictureBox1";
@@ -500,7 +439,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pbAddItem.BackColor = System.Drawing.Color.Transparent;
-            this.pbAddItem.BackgroundImage = global::PUPiMed.Properties.Resources._00add___Copy;
+            this.pbAddItem.BackgroundImage = global::PUPiMed.Properties.Resources.add_gray_box;
             this.pbAddItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbAddItem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbAddItem.Location = new System.Drawing.Point(358, 166);
@@ -522,11 +461,97 @@
             this.cbName.UseSelectable = true;
             this.cbName.SelectedIndexChanged += new System.EventHandler(this.cbName_SelectedIndexChanged);
             // 
+            // listType
+            // 
+            this.listType.Text = "Item Type";
+            this.listType.Width = 85;
+            // 
+            // listCode
+            // 
+            this.listCode.Text = "Item Code";
+            this.listCode.Width = 121;
+            // 
+            // listName
+            // 
+            this.listName.Text = "Name";
+            this.listName.Width = 165;
+            // 
+            // listQty
+            // 
+            this.listQty.Text = "Quantity";
+            this.listQty.Width = 94;
+            // 
+            // listSupplier
+            // 
+            this.listSupplier.Text = "Supplier";
+            this.listSupplier.Width = 140;
+            // 
+            // listDateReceived
+            // 
+            this.listDateReceived.Text = "Date Received";
+            this.listDateReceived.Width = 160;
+            // 
+            // listReceived
+            // 
+            this.listReceived.AutoArrange = false;
+            this.listReceived.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listType,
+            this.listCode,
+            this.listName,
+            this.listQty,
+            this.listSupplier,
+            this.listDateReceived});
+            this.listReceived.Depth = 0;
+            this.listReceived.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listReceived.FullRowSelect = true;
+            this.listReceived.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.listReceived.Location = new System.Drawing.Point(10, 207);
+            this.listReceived.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.listReceived.MouseState = MaterialSkin.MouseState.OUT;
+            this.listReceived.MultiSelect = false;
+            this.listReceived.Name = "listReceived";
+            this.listReceived.OwnerDraw = true;
+            this.listReceived.Size = new System.Drawing.Size(781, 420);
+            this.listReceived.TabIndex = 94;
+            this.listReceived.UseCompatibleStateImageBehavior = false;
+            this.listReceived.View = System.Windows.Forms.View.Details;
+            // 
+            // txtRCode
+            // 
+            this.txtRCode.AccessibleName = "";
+            this.txtRCode.BackColor = System.Drawing.Color.White;
+            this.txtRCode.Lines = new string[0];
+            this.txtRCode.Location = new System.Drawing.Point(728, 89);
+            this.txtRCode.MaxLength = 32767;
+            this.txtRCode.Name = "txtRCode";
+            this.txtRCode.PasswordChar = '\0';
+            this.txtRCode.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtRCode.SelectedText = "";
+            this.txtRCode.Size = new System.Drawing.Size(143, 23);
+            this.txtRCode.Style = MetroFramework.MetroColorStyle.Teal;
+            this.txtRCode.TabIndex = 115;
+            this.txtRCode.UseCustomBackColor = true;
+            this.txtRCode.UseSelectable = true;
+            // 
+            // lblCode
+            // 
+            this.lblCode.AccessibleName = "";
+            this.lblCode.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.lblCode.Location = new System.Drawing.Point(579, 93);
+            this.lblCode.Name = "lblCode";
+            this.lblCode.Size = new System.Drawing.Size(143, 19);
+            this.lblCode.TabIndex = 116;
+            this.lblCode.Text = "Receiving Code :";
+            this.lblCode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FormReceiveInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(894, 692);
+            this.ControlBox = false;
+            this.Controls.Add(this.txtRCode);
+            this.Controls.Add(this.lblCode);
             this.Controls.Add(this.pbAddItem);
             this.Controls.Add(this.cbName);
             this.Controls.Add(this.pbAddSupplier);
@@ -538,7 +563,7 @@
             this.Controls.Add(this.dtReceived);
             this.Controls.Add(this.txtQty);
             this.Controls.Add(this.cbType);
-            this.Controls.Add(this.materialListView1);
+            this.Controls.Add(this.listReceived);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.pictureBox1);
@@ -549,6 +574,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormReceiveInventory";
+            this.Resizable = false;
+            this.ShowInTaskbar = false;
             this.Style = MetroFramework.MetroColorStyle.Teal;
             ((System.ComponentModel.ISupportInitialize)(this.gridRI)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAddSupplier)).EndInit();
@@ -570,13 +597,6 @@
         private MetroFramework.Controls.MetroButton btncancel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroButton btnSave;
-        private MaterialSkin.Controls.MaterialListView materialListView1;
-        private System.Windows.Forms.ColumnHeader listType;
-        private System.Windows.Forms.ColumnHeader listCode;
-        private System.Windows.Forms.ColumnHeader listName;
-        private System.Windows.Forms.ColumnHeader listQty;
-        private System.Windows.Forms.ColumnHeader listSupplier;
-        private System.Windows.Forms.ColumnHeader listDateReceived;
         private MetroFramework.Controls.MetroComboBox cbType;
         private MetroFramework.Controls.MetroTextBox txtQty;
         private MetroFramework.Controls.MetroDateTime dtReceived;
@@ -595,5 +615,14 @@
         private System.Windows.Forms.PictureBox pbAddSupplier;
         private System.Windows.Forms.PictureBox pbAddItem;
         private MetroFramework.Controls.MetroComboBox cbName;
+        private System.Windows.Forms.ColumnHeader listType;
+        private System.Windows.Forms.ColumnHeader listCode;
+        private System.Windows.Forms.ColumnHeader listName;
+        private System.Windows.Forms.ColumnHeader listQty;
+        private System.Windows.Forms.ColumnHeader listSupplier;
+        private System.Windows.Forms.ColumnHeader listDateReceived;
+        private MaterialSkin.Controls.MaterialListView listReceived;
+        public MetroFramework.Controls.MetroTextBox txtRCode;
+        private MetroFramework.Controls.MetroLabel lblCode;
     }
 }

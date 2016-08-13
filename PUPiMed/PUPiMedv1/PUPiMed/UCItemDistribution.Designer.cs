@@ -84,7 +84,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pictureBox1.Image = global::PUPiMed.Properties.Resources._01deliver;
+            this.pictureBox1.Image = global::PUPiMed.Properties.Resources.deliver_white;
             this.pictureBox1.Location = new System.Drawing.Point(664, 88);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(39, 28);
@@ -253,7 +253,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::PUPiMed.Properties.Resources._01deliver2;
+            this.pictureBox12.Image = global::PUPiMed.Properties.Resources.deliver_teal;
             this.pictureBox12.Location = new System.Drawing.Point(-8, -4);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(182, 174);

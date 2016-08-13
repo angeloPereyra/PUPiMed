@@ -14,7 +14,7 @@ namespace PUPiMed
 {
     public partial class UCItemEquipment : UserControl
     {
-        AddEquipment equipmentForm;
+        FormAddEquipment equipmentForm;
         public UCItemEquipment()
         {
             InitializeComponent();
@@ -22,7 +22,7 @@ namespace PUPiMed
 
         private void addequipment_Click(object sender, EventArgs e)
         {
-            equipmentForm = new AddEquipment(this);
+            equipmentForm = new FormAddEquipment(this);
             equipmentForm.choice = 0;
             equipmentForm.Show();
         }
@@ -31,7 +31,7 @@ namespace PUPiMed
         {
             if (gridEquipment.CurrentRow != null)
             {
-                equipmentForm = new AddEquipment(this);
+                equipmentForm = new FormAddEquipment(this);
                 equipmentForm.choice = 1;
                 equipmentForm.txtCode.Text = gridEquipment.CurrentRow.Cells[0].Value.ToString();
                 equipmentForm.txtName.Text = gridEquipment.CurrentRow.Cells[1].Value.ToString();

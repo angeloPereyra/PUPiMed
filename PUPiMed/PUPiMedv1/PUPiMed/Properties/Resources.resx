@@ -118,211 +118,163 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Patient Logs and Inventory System Logo 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Patient Logs and Inventory System Logo 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="inventory_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01inventory2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Medical-78-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Medical-78-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_login-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_login-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="invent1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\invent1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="00add - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\00add - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Patient Logs and Inventory System Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Patient Logs and Inventory System Logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pill-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="00deletefga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\00deletefga1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoutshit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoutshit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Patient Logs and Inventory System Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Patient Logs and Inventory System Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bandaid2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandaid2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01patient2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="patient_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01patient2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Patient Logs and Inventory System Logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Patient Logs and Inventory System Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="16784-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16784-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="00editedit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\00editedit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01sud2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01sud2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="save1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\save1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="01lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01lib.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pill_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pill-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="01lib21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01lib21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoutshit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add ulit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add ulit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="admin_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01admin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_login_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_login-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_teal_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faculty_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01fac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_teal_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00editedit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pill_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pill-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faculty_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01fac2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patient_Logs_and_Inventory_System_Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patient Logs and Inventory System Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_teal_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pill_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\med321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandaid_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandaid2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_gray_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00add - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patient_Logs_and_Inventory_System_Logo11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patient Logs and Inventory System Logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="student_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wheelchair_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medical-78-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandaid_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandaid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_teal_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patient_Logs_and_Inventory_System_Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patient Logs and Inventory System Logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="invent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\invent2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="library_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01lib.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="00deletefga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\00deletefga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="student_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01sud2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pill-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Patient Logs and Inventory System Logo teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Patient Logs and Inventory System Logo teal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="44224-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\44224-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01inventory2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01inventory2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pill-482" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="med3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="pill_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\med3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bandaid" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandaid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete_teal_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="med1 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\med1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01deliver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01deliver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pill-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01supplies2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="supplies_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01supplies2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="00add - Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_teal_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\00add - Copy1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="01stud" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01stud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Patient Logs and Inventory System Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Patient Logs and Inventory System Logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="med31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\med31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01medmed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01medmed2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01lib2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01lib2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="med321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\med321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="patient11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patient11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="012" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Solutions_Icon-17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Solutions_Icon-17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bandage-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandage-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bandaid1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandaid1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01deliver2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01deliver2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01admin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01admin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="patient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="00delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\00delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cancel_teal_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00deletefga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="invent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\invent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pill-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01fac2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01fac2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pill-2412" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="pill_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pill-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="med33" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\med33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="patient_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="01fac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01fac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="patient11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patient11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pill-2411" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wheelchair_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medical-78-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="library_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01lib2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="System_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patient Logs and Inventory System Logo 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medicine_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\med1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patient_Logs_and_Inventory_System_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patient Logs and Inventory System Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Solutions_Icon_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Solutions_Icon-17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deliver_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01deliver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_w_perseon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add ulit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patient_Logs_and_Inventory_System_Logo_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patient Logs and Inventory System Logo teal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deliver_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01deliver2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="admin_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mecidine_teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01medmed2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invent1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invent1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supplies_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supplies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patient_Logs_and_Inventory_System_Logo_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patient Logs and Inventory System Logo 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="supplies" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\supplies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pill-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Medical-78-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Medical-78-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="med32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\med32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pill-242" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pill-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lock-2-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lock-2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -32,15 +32,15 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.mpanel = new MetroFramework.Controls.MetroPanel();
+            this.gridItemInventory = new MetroFramework.Controls.MetroGrid();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ReceiveInventory = new MetroFramework.Controls.MetroButton();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.gridItemInventory = new MetroFramework.Controls.MetroGrid();
             this.mpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridItemInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridItemInventory)).BeginInit();
             this.SuspendLayout();
             // 
             // mpanel
@@ -69,56 +69,6 @@
             this.mpanel.VerticalScrollbarBarColor = true;
             this.mpanel.VerticalScrollbarHighlightOnWheel = false;
             this.mpanel.VerticalScrollbarSize = 10;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pictureBox1.Image = global::PUPiMed.Properties.Resources.invent;
-            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox1.Location = new System.Drawing.Point(600, 92);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
-            // ReceiveInventory
-            // 
-            this.ReceiveInventory.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ReceiveInventory.BackColor = System.Drawing.Color.White;
-            this.ReceiveInventory.Highlight = true;
-            this.ReceiveInventory.Location = new System.Drawing.Point(595, 87);
-            this.ReceiveInventory.Name = "ReceiveInventory";
-            this.ReceiveInventory.Size = new System.Drawing.Size(183, 37);
-            this.ReceiveInventory.Style = MetroFramework.MetroColorStyle.Teal;
-            this.ReceiveInventory.TabIndex = 19;
-            this.ReceiveInventory.Text = "   RECEIVE INVENTORY";
-            this.ReceiveInventory.UseCustomBackColor = true;
-            this.ReceiveInventory.UseSelectable = true;
-            this.ReceiveInventory.UseStyleColors = true;
-            this.ReceiveInventory.Click += new System.EventHandler(this.ReceiveInventory_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label1.Location = new System.Drawing.Point(152, 68);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(304, 49);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Item Inventory";
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::PUPiMed.Properties.Resources._01inventory2;
-            this.pictureBox12.Location = new System.Drawing.Point(-1, 1);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(147, 133);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 3;
-            this.pictureBox12.TabStop = false;
             // 
             // gridItemInventory
             // 
@@ -189,6 +139,56 @@
             this.gridItemInventory.TabIndex = 27;
             this.gridItemInventory.UseStyleColors = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pictureBox1.Image = global::PUPiMed.Properties.Resources.invent;
+            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox1.Location = new System.Drawing.Point(600, 92);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
+            // ReceiveInventory
+            // 
+            this.ReceiveInventory.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ReceiveInventory.BackColor = System.Drawing.Color.White;
+            this.ReceiveInventory.Highlight = true;
+            this.ReceiveInventory.Location = new System.Drawing.Point(595, 87);
+            this.ReceiveInventory.Name = "ReceiveInventory";
+            this.ReceiveInventory.Size = new System.Drawing.Size(183, 37);
+            this.ReceiveInventory.Style = MetroFramework.MetroColorStyle.Teal;
+            this.ReceiveInventory.TabIndex = 19;
+            this.ReceiveInventory.Text = "   RECEIVE ITEMS";
+            this.ReceiveInventory.UseCustomBackColor = true;
+            this.ReceiveInventory.UseSelectable = true;
+            this.ReceiveInventory.UseStyleColors = true;
+            this.ReceiveInventory.Click += new System.EventHandler(this.ReceiveInventory_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.Location = new System.Drawing.Point(152, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(304, 49);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Item Inventory";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::PUPiMed.Properties.Resources.inventory_teal;
+            this.pictureBox12.Location = new System.Drawing.Point(-1, 1);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(147, 133);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 3;
+            this.pictureBox12.TabStop = false;
+            // 
             // UCItemInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,9 +198,9 @@
             this.Size = new System.Drawing.Size(787, 674);
             this.mpanel.ResumeLayout(false);
             this.mpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridItemInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridItemInventory)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,14 +1,8 @@
-﻿using MetroFramework.Controls;
+﻿using MetroFramework;
+using MetroFramework.Controls;
 using MetroFramework.Forms;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PUPiMed
@@ -16,11 +10,13 @@ namespace PUPiMed
     public partial class FormReceiveInventory : MetroForm
     {
         ArrayList alistCode;
-        Manufacturer mn = new Manufacturer();
+        ComboBoxFn mn = new ComboBoxFn();
+        string strType, strCode, strName, strQty, strSupplier, strDate;
 
         public FormReceiveInventory()
         {
             InitializeComponent();
+            dtReceived.CustomFormat=  "d-MMM-yyyy hh:mm:ss";
             cbType.SelectedIndex = 0;
             if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=1 AND boolItemDeleted=FALSE;", out alistCode))
             {
@@ -78,11 +74,11 @@ namespace PUPiMed
             if (cbType != null)
             {
                 if (cbType.SelectedItem.Equals("Medicine"))
-                    new AddMedicine().Show();
+                    new FormAddMedicine().Show();
                 else if (cbType.SelectedItem.Equals("Supply"))
-                    new AddSupply().Show();
+                    new FormAddSupply().Show();
                 else if (cbType.SelectedItem.Equals("Equipment"))
-                    new AddEquipment().Show();
+                    new FormAddEquipment().Show();
                 else 
                     cbType.Focus();
             }
@@ -90,9 +86,28 @@ namespace PUPiMed
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            string[] row = new string[6];
             if(getValues())
             {
+                row[0] = strType;
+                row[1] = strCode;
+                row[2] = strName;
+                row[3] = strQty;
+                row[4] = strSupplier;
+                row[5] = strDate;
 
+                listReceived.Items.Add(new ListViewItem(row));
+            }
+            else
+            {
+                row[0] = strType;
+                row[1] = "Item Code";
+                row[2] = "Item Name";
+                row[3] = "Quantity";
+                row[4] = "Supplier";
+                row[5] = strDate;
+
+                listReceived.Items.Add(new ListViewItem(row));
             }
         }
 
@@ -103,8 +118,15 @@ namespace PUPiMed
             strCode = txtCode.Text;
             strName = cbName.SelectedItem.ToString();
             strQty = txtQty.Text;
-            strSupplier = cbSupplier.SelectedItem.ToString();
-            strDate = dtReceived.Value.ToString();
+            try
+            {
+                strSupplier = cbSupplier.SelectedItem.ToString();
+            }catch(Exception ex)
+            {
+                MetroMessageBox.Show(this, ex.Message.ToString());
+                okay = false;
+            }            
+            strDate = dtReceived.Value.ToString("yyyy-MM-dd HH:mm:ss");
 
             if(string.IsNullOrEmpty(strType)|| string.IsNullOrEmpty(strCode)|| string.IsNullOrEmpty(strName)
                 || string.IsNullOrEmpty(strQty)|| string.IsNullOrEmpty(strSupplier)|| string.IsNullOrEmpty(strDate))
@@ -115,7 +137,20 @@ namespace PUPiMed
            return okay;
         }
 
-        string strType, strCode, strName, strQty, strSupplier, strDate;
+
+        private void dtReceived_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime result = dtReceived.Value;
+            strDate = result.ToString();
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem row in listReceived.SelectedItems)
+            {
+                listReceived.Items.Remove(row);
+            }
+        }
 
         private void cbType_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -154,8 +189,13 @@ namespace PUPiMed
 
         private void cbName_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cbName.SelectedIndex<=alistCode.Count)
+            if(cbName.SelectedIndex<=alistCode.Count&&alistCode!=null)
                 txtCode.Text = alistCode[cbName.SelectedIndex].ToString();
+        }
+
+        private void addToList(string[] row)
+        {
+            listReceived.Items.Add("Item Code").SubItems.AddRange(row);
         }
     }
 }

@@ -63,9 +63,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _00add___Copy {
+        internal static System.Drawing.Bitmap add_gray_box {
             get {
-                object obj = ResourceManager.GetObject("00add - Copy", resourceCulture);
+                object obj = ResourceManager.GetObject("add_gray_box", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _00add___Copy1 {
+        internal static System.Drawing.Bitmap add_teal_box {
             get {
-                object obj = ResourceManager.GetObject("00add - Copy1", resourceCulture);
+                object obj = ResourceManager.GetObject("add_teal_box", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _00delete {
+        internal static System.Drawing.Bitmap add_teal_circle {
             get {
-                object obj = ResourceManager.GetObject("00delete", resourceCulture);
+                object obj = ResourceManager.GetObject("add_teal_circle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _00deletefga {
+        internal static System.Drawing.Bitmap add_w_perseon {
             get {
-                object obj = ResourceManager.GetObject("00deletefga", resourceCulture);
+                object obj = ResourceManager.GetObject("add_w_perseon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _00deletefga1 {
+        internal static System.Drawing.Bitmap admin_teal {
             get {
-                object obj = ResourceManager.GetObject("00deletefga1", resourceCulture);
+                object obj = ResourceManager.GetObject("admin_teal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _00editedit {
+        internal static System.Drawing.Bitmap admin_white {
             get {
-                object obj = ResourceManager.GetObject("00editedit", resourceCulture);
+                object obj = ResourceManager.GetObject("admin_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _012 {
+        internal static System.Drawing.Bitmap bandaid_teal {
             get {
-                object obj = ResourceManager.GetObject("012", resourceCulture);
+                object obj = ResourceManager.GetObject("bandaid_teal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,229 +133,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _01admin {
+        internal static System.Drawing.Bitmap bandaid_white {
             get {
-                object obj = ResourceManager.GetObject("01admin", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01admin2 {
-            get {
-                object obj = ResourceManager.GetObject("01admin2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01deliver {
-            get {
-                object obj = ResourceManager.GetObject("01deliver", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01deliver2 {
-            get {
-                object obj = ResourceManager.GetObject("01deliver2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01fac {
-            get {
-                object obj = ResourceManager.GetObject("01fac", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01fac2 {
-            get {
-                object obj = ResourceManager.GetObject("01fac2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01inventory2 {
-            get {
-                object obj = ResourceManager.GetObject("01inventory2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01lib {
-            get {
-                object obj = ResourceManager.GetObject("01lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01lib2 {
-            get {
-                object obj = ResourceManager.GetObject("01lib2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01lib21 {
-            get {
-                object obj = ResourceManager.GetObject("01lib21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01medmed2 {
-            get {
-                object obj = ResourceManager.GetObject("01medmed2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01patient2 {
-            get {
-                object obj = ResourceManager.GetObject("01patient2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01stud {
-            get {
-                object obj = ResourceManager.GetObject("01stud", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01sud2 {
-            get {
-                object obj = ResourceManager.GetObject("01sud2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _01supplies2 {
-            get {
-                object obj = ResourceManager.GetObject("01supplies2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _16784_200 {
-            get {
-                object obj = ResourceManager.GetObject("16784-200", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _44224_200 {
-            get {
-                object obj = ResourceManager.GetObject("44224-200", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap add {
-            get {
-                object obj = ResourceManager.GetObject("add", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap add_ulit {
-            get {
-                object obj = ResourceManager.GetObject("add ulit", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bandage_24 {
-            get {
-                object obj = ResourceManager.GetObject("bandage-24", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bandaid {
-            get {
-                object obj = ResourceManager.GetObject("bandaid", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bandaid1 {
-            get {
-                object obj = ResourceManager.GetObject("bandaid1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bandaid2 {
-            get {
-                object obj = ResourceManager.GetObject("bandaid2", resourceCulture);
+                object obj = ResourceManager.GetObject("bandaid_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +153,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delete {
+        internal static System.Drawing.Bitmap cancel_teal_box {
             get {
-                object obj = ResourceManager.GetObject("delete", resourceCulture);
+                object obj = ResourceManager.GetObject("cancel_teal_box", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,9 +163,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edit {
+        internal static System.Drawing.Bitmap cancel_teal_circle {
             get {
-                object obj = ResourceManager.GetObject("edit", resourceCulture);
+                object obj = ResourceManager.GetObject("cancel_teal_circle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,9 +173,69 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images {
+        internal static System.Drawing.Bitmap delete_teal_circle {
             get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
+                object obj = ResourceManager.GetObject("delete_teal_circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deliver_teal {
+            get {
+                object obj = ResourceManager.GetObject("deliver_teal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deliver_white {
+            get {
+                object obj = ResourceManager.GetObject("deliver_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_teal_box {
+            get {
+                object obj = ResourceManager.GetObject("edit_teal_box", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_teal_circle {
+            get {
+                object obj = ResourceManager.GetObject("edit_teal_circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap faculty_teal {
+            get {
+                object obj = ResourceManager.GetObject("faculty_teal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap faculty_white {
+            get {
+                object obj = ResourceManager.GetObject("faculty_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,9 +273,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lock_2_512 {
+        internal static System.Drawing.Bitmap inventory_teal {
             get {
-                object obj = ResourceManager.GetObject("lock-2-512", resourceCulture);
+                object obj = ResourceManager.GetObject("inventory_teal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,9 +283,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logoutshit {
+        internal static System.Drawing.Bitmap library_teal {
             get {
-                object obj = ResourceManager.GetObject("logoutshit", resourceCulture);
+                object obj = ResourceManager.GetObject("library_teal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,9 +293,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap med1__2_ {
+        internal static System.Drawing.Bitmap library_white {
             get {
-                object obj = ResourceManager.GetObject("med1 (2)", resourceCulture);
+                object obj = ResourceManager.GetObject("library_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,9 +303,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap med3 {
+        internal static System.Drawing.Bitmap logout {
             get {
-                object obj = ResourceManager.GetObject("med3", resourceCulture);
+                object obj = ResourceManager.GetObject("logout", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,9 +313,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap med31 {
+        internal static System.Drawing.Bitmap mecidine_teal {
             get {
-                object obj = ResourceManager.GetObject("med31", resourceCulture);
+                object obj = ResourceManager.GetObject("mecidine_teal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -483,59 +323,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap med32 {
+        internal static System.Drawing.Bitmap medicine_white {
             get {
-                object obj = ResourceManager.GetObject("med32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap med321 {
-            get {
-                object obj = ResourceManager.GetObject("med321", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap med33 {
-            get {
-                object obj = ResourceManager.GetObject("med33", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Medical_78_512 {
-            get {
-                object obj = ResourceManager.GetObject("Medical-78-512", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Medical_78_5121 {
-            get {
-                object obj = ResourceManager.GetObject("Medical-78-5121", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap patient {
-            get {
-                object obj = ResourceManager.GetObject("patient", resourceCulture);
+                object obj = ResourceManager.GetObject("medicine_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -545,7 +335,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Patient_Logs_and_Inventory_System_Logo {
             get {
-                object obj = ResourceManager.GetObject("Patient Logs and Inventory System Logo", resourceCulture);
+                object obj = ResourceManager.GetObject("Patient_Logs_and_Inventory_System_Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -555,7 +345,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Patient_Logs_and_Inventory_System_Logo_3 {
             get {
-                object obj = ResourceManager.GetObject("Patient Logs and Inventory System Logo 3", resourceCulture);
+                object obj = ResourceManager.GetObject("Patient_Logs_and_Inventory_System_Logo_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -565,7 +355,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Patient_Logs_and_Inventory_System_Logo_teal {
             get {
-                object obj = ResourceManager.GetObject("Patient Logs and Inventory System Logo teal", resourceCulture);
+                object obj = ResourceManager.GetObject("Patient_Logs_and_Inventory_System_Logo_teal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -575,7 +365,17 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Patient_Logs_and_Inventory_System_Logo1 {
             get {
-                object obj = ResourceManager.GetObject("Patient Logs and Inventory System Logo1", resourceCulture);
+                object obj = ResourceManager.GetObject("Patient_Logs_and_Inventory_System_Logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Patient_Logs_and_Inventory_System_Logo11 {
+            get {
+                object obj = ResourceManager.GetObject("Patient_Logs_and_Inventory_System_Logo11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -585,7 +385,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Patient_Logs_and_Inventory_System_Logo2 {
             get {
-                object obj = ResourceManager.GetObject("Patient Logs and Inventory System Logo2", resourceCulture);
+                object obj = ResourceManager.GetObject("Patient_Logs_and_Inventory_System_Logo2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,9 +393,19 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Patient_Logs_and_Inventory_System_Logo3 {
+        internal static System.Drawing.Bitmap patient_teal {
             get {
-                object obj = ResourceManager.GetObject("Patient Logs and Inventory System Logo3", resourceCulture);
+                object obj = ResourceManager.GetObject("patient_teal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap patient_white {
+            get {
+                object obj = ResourceManager.GetObject("patient_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -615,7 +425,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap pill_24 {
             get {
-                object obj = ResourceManager.GetObject("pill-24", resourceCulture);
+                object obj = ResourceManager.GetObject("pill_24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -625,37 +435,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap pill_241 {
             get {
-                object obj = ResourceManager.GetObject("pill-241", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pill_2411 {
-            get {
-                object obj = ResourceManager.GetObject("pill-2411", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pill_2412 {
-            get {
-                object obj = ResourceManager.GetObject("pill-2412", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pill_242 {
-            get {
-                object obj = ResourceManager.GetObject("pill-242", resourceCulture);
+                object obj = ResourceManager.GetObject("pill_241", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -665,7 +445,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap pill_32 {
             get {
-                object obj = ResourceManager.GetObject("pill-32", resourceCulture);
+                object obj = ResourceManager.GetObject("pill_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,9 +453,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pill_48 {
+        internal static System.Drawing.Bitmap pill_teal {
             get {
-                object obj = ResourceManager.GetObject("pill-48", resourceCulture);
+                object obj = ResourceManager.GetObject("pill_teal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -683,19 +463,9 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pill_481 {
+        internal static System.Drawing.Bitmap pill_white {
             get {
-                object obj = ResourceManager.GetObject("pill-481", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pill_482 {
-            get {
-                object obj = ResourceManager.GetObject("pill-482", resourceCulture);
+                object obj = ResourceManager.GetObject("pill_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -725,7 +495,27 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Solutions_Icon_17 {
             get {
-                object obj = ResourceManager.GetObject("Solutions_Icon-17", resourceCulture);
+                object obj = ResourceManager.GetObject("Solutions_Icon_17", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_teal {
+            get {
+                object obj = ResourceManager.GetObject("student_teal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_white {
+            get {
+                object obj = ResourceManager.GetObject("student_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -743,9 +533,59 @@ namespace PUPiMed.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap supplies_teal {
+            get {
+                object obj = ResourceManager.GetObject("supplies_teal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap supplies_white {
+            get {
+                object obj = ResourceManager.GetObject("supplies_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap System_Logo {
+            get {
+                object obj = ResourceManager.GetObject("System_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_login_512 {
             get {
-                object obj = ResourceManager.GetObject("user_login-512", resourceCulture);
+                object obj = ResourceManager.GetObject("user_login_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wheelchair_teal {
+            get {
+                object obj = ResourceManager.GetObject("wheelchair_teal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wheelchair_white {
+            get {
+                object obj = ResourceManager.GetObject("wheelchair_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

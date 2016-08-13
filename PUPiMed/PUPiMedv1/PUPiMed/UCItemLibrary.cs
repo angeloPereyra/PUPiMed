@@ -17,10 +17,9 @@ namespace PUPiMed
         {
             using (Program.conn)
             {
-                using (MySqlCommand cmd = new MySqlCommand("SELECT STRITEMCODE AS 'ITEM CODE'," +
-                                "CASE WHEN INTITEMTYPE = 1 THEN 'MEDICINE' WHEN INTITEMTYPE = 2 THEN 'SUPPLY' ELSE 'EQUIPMENT' END AS TYPE," +
-                                "STRITEMNAME AS NAME, STRITEMGENERIC AS 'GENERIC NAME', STRITEMMANUCODE AS MANUFACTURER," +
-                                "INTITEMMIN AS MIN, INTITEMMAX AS MAX FROM TBLITEM WHERE BOOLITEMDELETED = FALSE;"
+                using (MySqlCommand cmd = new MySqlCommand(
+                                "SELECT CASE WHEN INTITEMTYPE = 1 THEN 'Medicine' WHEN INTITEMTYPE = 2 THEN 'Supply' ELSE 'Equipment' END AS Type," +
+                                "strItemCode AS 'Item Code', strItemName AS Medicine, strItemGeneric AS 'Generic Name', b.strManuName AS Manufacturer, intItemMin as Min, intItemMax as Max FROM tblItem, tblManufacturer b WHERE (boolItemDeleted=0 AND strItemManuCode=b.strManuCode);"
                                  , Program.conn))
                 {
                     cmd.CommandType = CommandType.Text;
