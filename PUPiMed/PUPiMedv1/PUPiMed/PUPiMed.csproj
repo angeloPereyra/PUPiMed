@@ -35,6 +35,9 @@
   <PropertyGroup>
     <StartupObject>PUPiMed.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>pupimed_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -71,6 +74,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSupplier.designer.cs">
+      <DependentUpon>AddSupplier.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAddEquipment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +197,9 @@
     <Compile Include="UCItemSupply.Designer.cs">
       <DependentUpon>UCItemSupply.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddSupplier.resx">
+      <DependentUpon>AddSupplier.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAddEquipment.resx">
       <DependentUpon>FormAddEquipment.cs</DependentUpon>
     </EmbeddedResource>
@@ -460,6 +472,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\med321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pupimed_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

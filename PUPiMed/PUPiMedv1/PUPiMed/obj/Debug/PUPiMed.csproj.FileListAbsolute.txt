@@ -29,3 +29,4 @@ C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMe
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItem.resources
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupplier.resources

@@ -30,7 +30,9 @@ namespace PUPiMed
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.mpLeftPanel = new MetroFramework.Controls.MetroPanel();
+            this.lblTime = new MetroFramework.Controls.MetroLabel();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.mtDistribute = new MetroFramework.Controls.MetroTile();
             this.picItemDistribution = new System.Windows.Forms.PictureBox();
@@ -56,7 +58,6 @@ namespace PUPiMed
             this.mtInventory = new MetroFramework.Controls.MetroTile();
             this.picItemInventory = new System.Windows.Forms.PictureBox();
             this.mpanel = new MetroFramework.Controls.MetroPanel();
-            this.lblTime = new MetroFramework.Controls.MetroLabel();
             this.mpLeftPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.mtDistribute.SuspendLayout();
@@ -117,6 +118,18 @@ namespace PUPiMed
             this.mpLeftPanel.VerticalScrollbarHighlightOnWheel = false;
             this.mpLeftPanel.VerticalScrollbarSize = 10;
             this.mpLeftPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mpLeftPanel_Paint);
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.ForeColor = System.Drawing.Color.White;
+            this.lblTime.Location = new System.Drawing.Point(148, 639);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(129, 19);
+            this.lblTime.TabIndex = 16;
+            this.lblTime.Text = "0000-00-00 00:00:00";
+            this.lblTime.UseCustomBackColor = true;
+            this.lblTime.UseCustomForeColor = true;
             // 
             // picLogo
             // 
@@ -570,18 +583,6 @@ namespace PUPiMed
             this.mpanel.VerticalScrollbarSize = 10;
             this.mpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.mpanel_Paint);
             // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.ForeColor = System.Drawing.Color.White;
-            this.lblTime.Location = new System.Drawing.Point(148, 639);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(129, 19);
-            this.lblTime.TabIndex = 16;
-            this.lblTime.Text = "0000-00-00 00:00:00";
-            this.lblTime.UseCustomBackColor = true;
-            this.lblTime.UseCustomForeColor = true;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -595,6 +596,7 @@ namespace PUPiMed
             this.Controls.Add(this.mpLeftPanel);
             this.Controls.Add(this.mpanel);
             this.DisplayHeader = false;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Padding = new System.Windows.Forms.Padding(20, 30, 20, 20);
             this.Resizable = false;

@@ -9,16 +9,21 @@ namespace PUPiMed
 {
     public partial class FormReceiveInventory : MetroForm
     {
-        ArrayList alistCode;
+        ArrayList alistCode, alistCode1;
         ComboBoxFn mn = new ComboBoxFn();
         string strType, strCode, strName, strQty, strSupplier, strDate;
 
         public FormReceiveInventory()
         {
             InitializeComponent();
-            dtReceived.CustomFormat=  "d-MMM-yyyy hh:mm:ss";
             cbType.SelectedIndex = 0;
-            if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=1 AND boolItemDeleted=FALSE;", out alistCode))
+            loadItemComboBox();
+            loadSupplierComboBox();
+        }
+
+        private void loadItemComboBox()
+        {
+            if (!mn.fillComboBox(cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=1 AND boolItemDeleted=FALSE;", out alistCode))
             {
                 //cbName.Items.Add("[Empty Library]");
                 pbAddItem.Focus();
@@ -26,12 +31,24 @@ namespace PUPiMed
             else
             {
                 txtCode.Text = alistCode[0].ToString();
+                cbName.SelectedIndex = 0;
                 
-                //cbItem.SelectedIndex = 0;
-                //cbSupplier.SelectedIndex = 0;
-            }cbName.SelectedIndex = 0;
+            }
+            cbName.SelectedIndex = 0;
 
+        }
 
+        private void loadSupplierComboBox()
+        {
+            if (!mn.fillComboBox(cbSupplier, "SELECT strDistCode, strDistName FROM tblDistributor;", out alistCode1))
+            {
+                pbAddSupplier.Focus();
+            }
+            else
+            {
+                cbSupplier.SelectedIndex = 0;
+            }
+            cbSupplier.SelectedIndex = 0;
         }
 
         private void gridRI_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -111,6 +128,11 @@ namespace PUPiMed
             }
         }
 
+        private void pbAddSupplier_Click(object sender, EventArgs e)
+        {
+            new AddSupplier().Show();
+        }
+
         private bool getValues()
         {
             bool okay = true;
@@ -126,7 +148,7 @@ namespace PUPiMed
                 MetroMessageBox.Show(this, ex.Message.ToString());
                 okay = false;
             }            
-            strDate = dtReceived.Value.ToString("yyyy-MM-dd HH:mm:ss");
+            strDate = dtReceived.Value.ToString("yyyy-MM-dd");
 
             if(string.IsNullOrEmpty(strType)|| string.IsNullOrEmpty(strCode)|| string.IsNullOrEmpty(strName)
                 || string.IsNullOrEmpty(strQty)|| string.IsNullOrEmpty(strSupplier)|| string.IsNullOrEmpty(strDate))
