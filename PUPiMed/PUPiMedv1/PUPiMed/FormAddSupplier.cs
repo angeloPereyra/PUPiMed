@@ -89,40 +89,39 @@ namespace PUPiMed
             {
                 if (addressIsOkay())
                 {
-                    //save to db
-                    if (!Program.ExecuteQuery("INSERT INTO tblDistributor VALUES ('" + strCode + "','" + strName + "','" + strACode + "','" + strContact + "','" + strEmail + "'" + ");"))
+                    if (string.IsNullOrEmpty(Program.getNextCode(strCode)))
                     {
-                        //tell them something's wrong
-                        status.Text = "Failed to save distributor.";
+                        txtCode.Focus();
+                        status.Text = "Invalid code.";
                         status.BackColor = Color.Tomato;
                     }
                     else
                     {
-                        
-                        strCode = Program.getNextCode(strCode);
-                        if (string.IsNullOrEmpty(strCode))
+                        //save to db
+                        if (!Program.ExecuteQuery("INSERT INTO tblDistributor VALUES ('" + strCode + "','" + strName + "','" + strACode + "','" + strContact + "','" + strEmail + "'" + ");"))
                         {
-                            status.Text = "Invalid Code.";
+                            //tell them something's wrong
+                            status.Text = "Failed to save distributor.";
                             status.BackColor = Color.Tomato;
-                            txtCode.Focus();
-                        }else
-                        {
-                            txtCode.Text = strCode;
                         }
-                            
-                        txtName.Clear();
-                        txtName.Focus();
-                        txtContact.Clear();
-                        txtEmail.Clear();
-                        txtNo.Clear();
-                        txtStreet.Clear();
-                        txtTown.Clear();
-                        txtCity.Clear();
-                        status.Text = "Saved.";
-                        status.BackColor = Color.LimeGreen;
+                        else
+                        {
+
+                            strCode = Program.getNextCode(strCode);
+                            txtCode.Text = strCode;
+                            txtName.Clear();
+                            txtName.Focus();
+                            txtContact.Clear();
+                            txtEmail.Clear();
+                            txtNo.Clear();
+                            txtStreet.Clear();
+                            txtTown.Clear();
+                            txtCity.Clear();
+                            status.Text = "Saved.";
+                            status.BackColor = Color.LimeGreen;
+                        }
                     }
-                }
-                    
+                }  
             }
             else
             {

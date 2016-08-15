@@ -26,7 +26,6 @@ namespace PUPiMed
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             lblTime.ForeColor = System.Drawing.Color.White;
             lblTime.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         }

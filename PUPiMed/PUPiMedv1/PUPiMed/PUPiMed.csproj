@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2F74FB65-366C-4BE6-BC52-D330082C0825}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PUPiMed</RootNamespace>
     <AssemblyName>PUPiMed</AssemblyName>
@@ -80,12 +80,6 @@
     <Compile Include="FormAddSupplier.designer.cs">
       <DependentUpon>FormAddSupplier.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAddEquipment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAddEquipment.Designer.cs">
-      <DependentUpon>FormAddEquipment.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormAddItem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,12 +91,6 @@
     </Compile>
     <Compile Include="FormAddPatient.Designer.cs">
       <DependentUpon>FormAddPatient.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormAddSupply.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAddSupply.Designer.cs">
-      <DependentUpon>FormAddSupply.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -136,18 +124,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SmartCounter.cs" />
     <Compile Include="UCAdminTab.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCAdminTab.Designer.cs">
       <DependentUpon>UCAdminTab.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCItemEquipment.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCItemEquipment.Designer.cs">
-      <DependentUpon>UCItemEquipment.cs</DependentUpon>
     </Compile>
     <Compile Include="UCFacultyTab.cs">
       <SubType>UserControl</SubType>
@@ -191,26 +172,14 @@
     <Compile Include="UCStudentTab.Designer.cs">
       <DependentUpon>UCStudentTab.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCItemSupply.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCItemSupply.Designer.cs">
-      <DependentUpon>UCItemSupply.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="FormAddSupplier.resx">
       <DependentUpon>FormAddSupplier.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAddEquipment.resx">
-      <DependentUpon>FormAddEquipment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAddItem.resx">
       <DependentUpon>FormAddItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAddPatient.resx">
       <DependentUpon>FormAddPatient.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAddSupply.resx">
-      <DependentUpon>FormAddSupply.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -231,9 +200,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCAdminTab.resx">
       <DependentUpon>UCAdminTab.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCItemEquipment.resx">
-      <DependentUpon>UCItemEquipment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCFacultyTab.resx">
       <DependentUpon>UCFacultyTab.cs</DependentUpon>
@@ -256,9 +222,7 @@
     <EmbeddedResource Include="UCStudentTab.resx">
       <DependentUpon>UCStudentTab.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCItemSupply.resx">
-      <DependentUpon>UCItemSupply.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -478,6 +442,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pupimed_icon.ico" />
+    <EmbeddedResource Include="Resources\database.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

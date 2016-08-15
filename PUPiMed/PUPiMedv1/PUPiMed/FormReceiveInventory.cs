@@ -56,34 +56,9 @@ namespace PUPiMed
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox12_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btncancel_Click(object sender, EventArgs e)
         {
             this.Dispose();
-        }
-
-        private void metroTextBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroTextBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroTextBox3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pbAddItem_Click(object sender, EventArgs e)
@@ -134,6 +109,11 @@ namespace PUPiMed
 
         }
 
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+        
         private void pbAddSupplier_Click(object sender, EventArgs e)
         {
             new FormAddSupplier().ShowDialog();
@@ -183,37 +163,11 @@ namespace PUPiMed
 
         private void cbType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbType.SelectedItem.Equals("Medicine"))
+            if (!mn.fillComboBox(cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType="+(cbType.SelectedIndex+1)+" AND boolItemDeleted=0;", out alistCode))
             {
-                if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=1 AND boolItemDeleted=0;", out alistCode))
-                {
-                    //cbName.Items.Add("[Empty Library]");
-                    pbAddItem.Focus();
-                }
-                else cbName.SelectedIndex = 0;
-                    
+                pbAddItem.Focus();
             }
-            else if (cbType.SelectedItem.Equals("Supply"))
-            {
-                if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=2 AND boolItemDeleted=0;", out alistCode))
-                {
-                    //cbName.Items.Add("[Empty Library]");
-                    pbAddItem.Focus();
-                }
-                else cbName.SelectedIndex = 0;
-            }
-            else if (cbType.SelectedItem.Equals("Equipment"))
-            {
-                if (!mn.fillComboBox( cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=3 AND boolItemDeleted=0;",out alistCode))
-                {
-
-                    //cbName.Items.Add("[Empty Library]");
-                    pbAddItem.Focus();
-                }
-                else cbName.SelectedIndex = 0;
-            }
-            else
-                cbType.Focus();
+            else cbName.SelectedIndex = 0;
         }
 
         private void cbName_SelectedIndexChanged(object sender, EventArgs e)

@@ -70,78 +70,81 @@ namespace PUPiMed
                 {
                     if (string.IsNullOrEmpty(Program.getNextCode(strCode)))
                     {
+                        txtCode.Focus();
                         status.Text = "Invalid code.";
                         status.BackColor = Color.Tomato;
-                        txtCode.Focus();
                     }
                     else
                     {
-
-                    }
-                    if (cbManufacturer.SelectedItem.ToString().Equals("Others..."))
-                    {
-                        strManu = Program.getNextCode(aListCode[aListCode.Count - 2].ToString());
-                    }
-                    if (newManufacturer)
-                    {
-                        //save manufacturer to db
-                        if (!string.IsNullOrWhiteSpace(txtManuName.Text))
-                        { 
-                            if(!Program.ExecuteQuery("INSERT INTO tblManufacturer VALUES('" + strManu + "','" + txtManuName.Text + "');"))
+                        if (cbManufacturer.SelectedItem.ToString().Equals("Others..."))
+                        {
+                            strManu = Program.getNextCode(aListCode[aListCode.Count - 2].ToString());
+                        }
+                        if (newManufacturer)
+                        {
+                            //save manufacturer to db
+                            if (!string.IsNullOrWhiteSpace(txtManuName.Text))
                             {
-                                status.Text = "Failed to save manufacturer.";
+                                if (!Program.ExecuteQuery("INSERT INTO tblManufacturer VALUES('" + strManu + "','" + txtManuName.Text + "');"))
+                                {
+                                    status.Text = "Failed to save manufacturer.";
+                                    status.BackColor = Color.Tomato;
+                                }
+                            }
+                            else
+                            {
+                                status.Text = "Manufacturer name can't be empty.";
                                 status.BackColor = Color.Tomato;
                             }
                         }
+                        if (choice == 0)
+                        {
+                            strQuery = "INSERT INTO tblItem VALUES ('" + strCode + "', '" + strName + "', '" + strGen + "', '" + strManu + "', " + intMin + ", " + intMax + ", " + itemType + ", 0 , 0000-00-00-00-00-00, '');";
+                        }
                         else
                         {
-                            status.Text = "Manufacturer name can't be empty.";
+                            strQuery = "UPDATE tblItem SET strItemName='" + strName
+                                + "', strItemGeneric='" + strGen
+                                + "', strItemManuCode='" + strManu
+                                + "', intItemMin=" + intMin
+                                + ", intItemMax=" + intMax
+                                + " WHERE strItemCode='" + strCode + "';";
+                        }
+
+                        if (Program.ExecuteQuery(strQuery))
+                        {
+                            //success
+                            loadManufacturer();
+                            strCode = Program.getNextCode(strCode);
+                            txtCode.Text = strCode;
+                            txtCode.Enabled = false;
+                            txtName.Clear();
+                            txtName.Focus();
+                            txtGen.Clear();
+                            txtManu.Clear();
+                            txtMin.Clear();
+                            txtMax.Clear();
+                            txtManuName.Clear();
+                            if (cbManufacturer.Items != null)
+                            {
+                                cbManufacturer.SelectedIndex = 0;
+                                txtManu.Text = aListCode[cbManufacturer.SelectedIndex].ToString();
+                            }
+                                
+                            if (parent != null)
+                                parent.updateTable();
+
+                            status.Text = "Saved.";
+                            status.BackColor = Color.LimeGreen;
+                            if (choice == 1)
+                                this.Dispose();
+                        }
+                        else
+                        {
+                            //fail
+                            status.Text = "Failed to make changes.";
                             status.BackColor = Color.Tomato;
                         }
-                    }
-                    if (choice == 0)
-                    {
-                        strQuery = "INSERT INTO tblItem VALUES ('" + strCode + "', '" + strName + "', '" + strGen + "', '" + strManu + "', " + intMin + ", " + intMax + ", " + itemType + ", 0 , 0000-00-00-00-00-00, '');";
-                    }
-                    else
-                    {
-                        strQuery = "UPDATE tblItem SET strItemName='" + strName
-                            + "', strItemGeneric='" + strGen
-                            + "', strItemManuCode='" + strManu
-                            + "', intItemMin=" + intMin
-                            + ", intItemMax=" + intMax
-                            + " WHERE strItemCode='" + strCode + "';";
-                    }
-
-                    if (Program.ExecuteQuery(strQuery))
-                    {
-                        //success
-                        loadManufacturer();
-                        strCode = Program.getNextCode(strCode);
-                        txtCode.Text = strCode;
-                        txtCode.Enabled = false;
-                        txtName.Clear();
-                        txtName.Focus();
-                        txtGen.Clear();
-                        txtManu.Clear();
-                        txtMin.Clear();
-                        txtMax.Clear();
-                        txtManuName.Clear();
-                        if (cbManufacturer.Items != null)
-                            cbManufacturer.SelectedIndex = 0;
-                        if (parent != null)
-                            parent.updateTable();
-                        
-                        status.Text = "Saved.";
-                        status.BackColor = Color.LimeGreen;
-                        if (choice == 1)
-                            this.Dispose();
-                    }
-                    else
-                    {
-                        //fail
-                        status.Text = "Failed to make changes.";
-                        status.BackColor = Color.Tomato;
                     }
                 }
             }

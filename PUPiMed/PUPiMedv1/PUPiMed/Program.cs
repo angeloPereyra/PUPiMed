@@ -1,6 +1,8 @@
 ﻿using MetroFramework;
 using MySql.Data.MySqlClient;
 using System;
+using System.IO;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -18,18 +20,48 @@ namespace PUPiMed
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Login());
             Application.Run(new MainForm());
+
+            /*string sql;
+            var assembly = Assembly.GetExecutingAssembly();
+            var resourceName = "PUPiMed.Resources.database.txt";
+            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                sql = reader.ReadToEnd();
+            }
+
+            if (!Program.ExecuteQuery(sql))
+            {
+                MessageBox.Show("Failed to load sql file.");
+            }
+
+            Console.ReadLine();
+            */
         }
 
-        static string user   = "root;";
+        public static void login()
+        {
+            user = Login.getUser();  //"admin;";
+            pass = Login.getPass();
+
+            Console.WriteLine("server= " + server +
+            "user id =" + user +
+            ";password=" + pass +
+            ";database=" + db);
+
+            conn.Open();
+        }
+        
         static string server = "localhost;";
-        static string pass   = "root;";
+        static string user = "admin;";
+        static string pass = "admin;";
         static string db     = "dbmedicalclinic;";
 
         public static MySqlConnection conn = new MySqlConnection(
             "server= "  +server+
             "user id =" +user+
-            "password=" +pass+
-            "database=" +db
+            ";password=" +pass+
+            ";database=" +db
         );
 
         public static bool ExecuteQuery(string query)
@@ -46,7 +78,7 @@ namespace PUPiMed
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message.ToString());
+                MessageBox.Show("[ExeQ]\t"+ex.Message.ToString());
             }
             finally
             {

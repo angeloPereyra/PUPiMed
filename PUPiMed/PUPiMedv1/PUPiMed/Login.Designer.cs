@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.btnLOGIN = new MaterialSkin.Controls.MaterialFlatButton();
-            this.boxUserID = new MetroFramework.Controls.MetroTextBox();
+            this.txtUser = new MetroFramework.Controls.MetroTextBox();
             this.lblPassCode = new MetroFramework.Controls.MetroLabel();
             this.lblUserCode = new MetroFramework.Controls.MetroLabel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.boxPassCode = new MetroFramework.Controls.MetroTextBox();
+            this.txtPass = new MetroFramework.Controls.MetroTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,24 +60,24 @@
             this.btnLOGIN.UseVisualStyleBackColor = true;
             this.btnLOGIN.Click += new System.EventHandler(this.btnLOGIN_Click);
             // 
-            // boxUserID
+            // txtUser
             // 
-            this.boxUserID.AccessibleName = "boxUserID";
-            this.boxUserID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.boxUserID.Lines = new string[0];
-            this.boxUserID.Location = new System.Drawing.Point(135, 228);
-            this.boxUserID.MaxLength = 32767;
-            this.boxUserID.Name = "boxUserID";
-            this.boxUserID.PasswordChar = '\0';
-            this.boxUserID.PromptText = "Username";
-            this.boxUserID.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.boxUserID.SelectedText = "";
-            this.boxUserID.Size = new System.Drawing.Size(251, 23);
-            this.boxUserID.Style = MetroFramework.MetroColorStyle.Teal;
-            this.boxUserID.TabIndex = 1;
-            this.boxUserID.UseCustomBackColor = true;
-            this.boxUserID.UseSelectable = true;
-            this.boxUserID.UseStyleColors = true;
+            this.txtUser.AccessibleName = "boxUserID";
+            this.txtUser.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtUser.Lines = new string[0];
+            this.txtUser.Location = new System.Drawing.Point(135, 228);
+            this.txtUser.MaxLength = 32767;
+            this.txtUser.Name = "txtUser";
+            this.txtUser.PasswordChar = '\0';
+            this.txtUser.PromptText = "Username";
+            this.txtUser.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtUser.SelectedText = "";
+            this.txtUser.Size = new System.Drawing.Size(251, 23);
+            this.txtUser.Style = MetroFramework.MetroColorStyle.Teal;
+            this.txtUser.TabIndex = 1;
+            this.txtUser.UseCustomBackColor = true;
+            this.txtUser.UseSelectable = true;
+            this.txtUser.UseStyleColors = true;
             // 
             // lblPassCode
             // 
@@ -129,34 +129,34 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(26, 3);
+            this.label1.Location = new System.Drawing.Point(0, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 20);
+            this.label1.Size = new System.Drawing.Size(169, 20);
             this.label1.TabIndex = 3;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // boxPassCode
+            // txtPass
             // 
-            this.boxPassCode.AccessibleName = "boxPassCode";
-            this.boxPassCode.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.boxPassCode.Lines = new string[0];
-            this.boxPassCode.Location = new System.Drawing.Point(135, 264);
-            this.boxPassCode.MaxLength = 32767;
-            this.boxPassCode.Name = "boxPassCode";
-            this.boxPassCode.PasswordChar = '●';
-            this.boxPassCode.PromptText = "Password";
-            this.boxPassCode.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.boxPassCode.SelectedText = "";
-            this.boxPassCode.Size = new System.Drawing.Size(251, 23);
-            this.boxPassCode.Style = MetroFramework.MetroColorStyle.Teal;
-            this.boxPassCode.TabIndex = 2;
-            this.boxPassCode.UseCustomBackColor = true;
-            this.boxPassCode.UseSelectable = true;
-            this.boxPassCode.UseStyleColors = true;
-            this.boxPassCode.UseSystemPasswordChar = true;
+            this.txtPass.AccessibleName = "boxPassCode";
+            this.txtPass.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtPass.Lines = new string[0];
+            this.txtPass.Location = new System.Drawing.Point(135, 264);
+            this.txtPass.MaxLength = 32767;
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '●';
+            this.txtPass.PromptText = "Password";
+            this.txtPass.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtPass.SelectedText = "";
+            this.txtPass.Size = new System.Drawing.Size(251, 23);
+            this.txtPass.Style = MetroFramework.MetroColorStyle.Teal;
+            this.txtPass.TabIndex = 2;
+            this.txtPass.UseCustomBackColor = true;
+            this.txtPass.UseSelectable = true;
+            this.txtPass.UseStyleColors = true;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // pictureBox1
             // 
@@ -176,8 +176,8 @@
             this.ClientSize = new System.Drawing.Size(470, 351);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.btnLOGIN);
-            this.Controls.Add(this.boxUserID);
-            this.Controls.Add(this.boxPassCode);
+            this.Controls.Add(this.txtUser);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.lblPassCode);
             this.Controls.Add(this.lblUserCode);
             this.Controls.Add(this.pictureBox1);
@@ -197,12 +197,12 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialFlatButton btnLOGIN;
-        private MetroFramework.Controls.MetroTextBox boxUserID;
-        private MetroFramework.Controls.MetroTextBox boxPassCode;
         private MetroFramework.Controls.MetroLabel lblPassCode;
         private MetroFramework.Controls.MetroLabel lblUserCode;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroPanel metroPanel1;
         private System.Windows.Forms.Label label1;
+        public MetroFramework.Controls.MetroTextBox txtUser;
+        public MetroFramework.Controls.MetroTextBox txtPass;
     }
 }
