@@ -7,6 +7,8 @@ namespace PUPiMed
     {
         public SmartCounter(string prev)
         {
+            //@"^[\w\-\s]+$"       ----alphanumeric and space
+            //Regex.IsMatch(strCode, "^(?=.*?[0-9])(?=.*?[A-Za-z])[a-zA-Z0-9_]+$")  --must be alphanumeric
             prev = Regex.Replace(prev, @"[^\w\-]", "");
             string original = prev;
             string num = string.Empty;

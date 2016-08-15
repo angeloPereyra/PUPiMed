@@ -1,4 +1,5 @@
 ﻿using MetroFramework.Controls;
+using System.Drawing;
 
 namespace PUPiMed
 {
@@ -638,22 +639,37 @@ namespace PUPiMed
         {
             MetroTile tile = sender as MetroTile;
             tile.BackColor = System.Drawing.Color.LightCoral;
+            //Color subColor = new Color();
+            //subColor = Color.FromArgb(251, 105, 0);
+            //tile.BackColor = subColor;
+
         }
         private void sub_MouseExit(object sender, System.EventArgs e)
         {
             MetroTile tile = sender as MetroTile;
             tile.BackColor = System.Drawing.Color.LightSeaGreen;
+            //Color subColor = new Color();
+            //subColor = Color.FromArgb(0, 128, 128);
+            //tile.BackColor = subColor;
         }
 
         private void main_MouseEnter(object sender, System.EventArgs e)
         {
             MetroTile tile = sender as MetroTile;
+            //Color mainColor = new Color();
+            //mainColor = Color.FromArgb(246, 55, 0);
             tile.BackColor = System.Drawing.Color.IndianRed;
+            //tile.BackColor = mainColor;
+
+
         }
         private void main_MouseExit(object sender, System.EventArgs e)
         {
             MetroTile tile = sender as MetroTile;
             tile.BackColor = System.Drawing.Color.Teal;
+            //Color mainColor = new Color();
+            //mainColor = Color.FromArgb(0,64,64);
+            //tile.BackColor = mainColor;
 
         }
         #endregion

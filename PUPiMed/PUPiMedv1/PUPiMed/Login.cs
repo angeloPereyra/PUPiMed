@@ -13,7 +13,7 @@ namespace PUPiMed
 
         private void btnLOGIN_Click(object sender, System.EventArgs e)
         {
-            new MainForm().Show();
+            new MainForm().ShowDialog();
         }
 
         private void Login_Load(object sender, System.EventArgs e)

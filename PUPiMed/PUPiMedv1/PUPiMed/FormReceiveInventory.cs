@@ -11,19 +11,19 @@ namespace PUPiMed
     {
         ArrayList alistCode, alistCode1;
         ComboBoxFn mn = new ComboBoxFn();
-        string strType, strCode, strName, strQty, strSupplier, strDate;
+        string strType, strCode, strName, strQty, strSupplier, strDate, strRCode;
 
         public FormReceiveInventory()
         {
             InitializeComponent();
             cbType.SelectedIndex = 0;
-            loadItemComboBox();
+            loadItemComboBox(cbType.SelectedIndex+1);
             loadSupplierComboBox();
         }
 
-        private void loadItemComboBox()
+        private void loadItemComboBox(int type)
         {
-            if (!mn.fillComboBox(cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=1 AND boolItemDeleted=FALSE;", out alistCode))
+            if (!mn.fillComboBox(cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType="+type+" AND boolItemDeleted=FALSE;", out alistCode))
             {
                 //cbName.Items.Add("[Empty Library]");
                 pbAddItem.Focus();
@@ -91,13 +91,14 @@ namespace PUPiMed
             if (cbType != null)
             {
                 if (cbType.SelectedItem.Equals("Medicine"))
-                    new FormAddMedicine().Show();
+                    new FormAddItem(1).ShowDialog();
                 else if (cbType.SelectedItem.Equals("Supply"))
-                    new FormAddSupply().Show();
+                    new FormAddItem(2).ShowDialog();
                 else if (cbType.SelectedItem.Equals("Equipment"))
-                    new FormAddEquipment().Show();
+                    new FormAddItem(3).ShowDialog();
                 else 
                     cbType.Focus();
+                loadItemComboBox(cbType.SelectedIndex + 1);
             }
         }
 
@@ -110,8 +111,8 @@ namespace PUPiMed
                 row[1] = strCode;
                 row[2] = strName;
                 row[3] = strQty;
-                row[4] = strSupplier;
-                row[5] = strDate;
+                //row[4] = strSupplier;
+                //row[5] = strDate;
 
                 listReceived.Items.Add(new ListViewItem(row));
             }
@@ -121,16 +122,22 @@ namespace PUPiMed
                 row[1] = "Item Code";
                 row[2] = "Item Name";
                 row[3] = "Quantity";
-                row[4] = "Supplier";
-                row[5] = strDate;
+                //row[4] = "Supplier";
+                //row[5] = strDate;
 
                 listReceived.Items.Add(new ListViewItem(row));
             }
         }
 
+        private void FormReceiveInventory_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void pbAddSupplier_Click(object sender, EventArgs e)
         {
-            new AddSupplier().Show();
+            new FormAddSupplier().ShowDialog();
+            loadSupplierComboBox();
         }
 
         private bool getValues()

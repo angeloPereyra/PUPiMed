@@ -56,7 +56,7 @@ namespace PUPiMed
         {
             supplyForm = new FormAddSupply(this);
             supplyForm.choice = 0;
-            supplyForm.Show();
+            supplyForm.ShowDialog();
         }
 
         private void mbView_Click(object sender, EventArgs e)
@@ -72,7 +72,7 @@ namespace PUPiMed
                 supplyForm.txtMin.Text = gridSupply.CurrentRow.Cells[4].Value.ToString();
                 supplyForm.txtMax.Text = gridSupply.CurrentRow.Cells[5].Value.ToString();
 
-                supplyForm.Show();
+                supplyForm.ShowDialog();
             }
             
         }

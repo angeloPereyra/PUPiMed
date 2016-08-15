@@ -44,7 +44,7 @@ namespace PUPiMed
             MetroTile tile = sender as MetroTile;
             //tile.BackColor = System.Drawing.Color.Firebrick;
             mpanel.Controls.Clear();
-            mpanel.Controls.Add(new UCItem());
+            mpanel.Controls.Add(new UCItem(1));
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -65,7 +65,7 @@ namespace PUPiMed
             MetroTile tile = sender as MetroTile;
             //tile.BackColor = System.Drawing.Color.Firebrick;
             mpanel.Controls.Clear();
-            mpanel.Controls.Add(new UCItemSupply());
+            mpanel.Controls.Add(new UCItem(2));
         }
 
         private void mtEquipment_Click(object sender, EventArgs e)
@@ -73,7 +73,7 @@ namespace PUPiMed
             MetroTile tile = sender as MetroTile;
             //tile.BackColor = System.Drawing.Color.Firebrick;
             mpanel.Controls.Clear();
-            mpanel.Controls.Add(new UCItemEquipment());
+            mpanel.Controls.Add(new UCItem(3));
         }
 
         private void mtDistribute_Click(object sender, EventArgs e)

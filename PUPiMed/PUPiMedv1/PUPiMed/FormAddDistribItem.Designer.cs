@@ -79,7 +79,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAddpatient.Depth = 0;
-            this.lblAddpatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.lblAddpatient.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblAddpatient.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblAddpatient.Location = new System.Drawing.Point(-2, 8);
             this.lblAddpatient.MouseState = MaterialSkin.MouseState.HOVER;
@@ -828,7 +828,9 @@
             this.Controls.Add(this.lblAddpatient);
             this.Controls.Add(this.pictureBox12);
             this.Name = "FormAddDistribItem";
+            this.ShowInTaskbar = false;
             this.Style = MetroFramework.MetroColorStyle.Teal;
+            this.TransparencyKey = System.Drawing.Color.Empty;
             this.Load += new System.EventHandler(this.FormAddDistribItem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

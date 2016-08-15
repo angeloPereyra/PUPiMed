@@ -53,7 +53,7 @@
             this.pictureBox12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox12.Location = new System.Drawing.Point(8, 6);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(132, 120);
+            this.pictureBox12.Size = new System.Drawing.Size(120, 120);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 15;
             this.pictureBox12.TabStop = false;

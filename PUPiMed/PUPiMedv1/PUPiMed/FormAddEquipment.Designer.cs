@@ -121,13 +121,13 @@
             // 
             this.formlbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.formlbl.Depth = 0;
-            this.formlbl.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.formlbl.Font = new System.Drawing.Font("Roboto", 11F);
             this.formlbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.formlbl.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.formlbl.Location = new System.Drawing.Point(1, 13);
+            this.formlbl.Location = new System.Drawing.Point(89, 13);
             this.formlbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.formlbl.Name = "formlbl";
-            this.formlbl.Size = new System.Drawing.Size(594, 64);
+            this.formlbl.Size = new System.Drawing.Size(433, 64);
             this.formlbl.TabIndex = 37;
             this.formlbl.Text = "EQUIPMENT";
             this.formlbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -384,7 +384,7 @@
             this.cbManufacturer.UseSelectable = true;
             this.cbManufacturer.Visible = false;
             // 
-            // AddEquipment
+            // FormAddEquipment
             // 
             this.AccessibleName = "frmaddeqp";
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,8 +413,9 @@
             this.Controls.Add(this.formlbl);
             this.Controls.Add(this.cbManufacturer);
             this.MaximizeBox = false;
-            this.Name = "AddEquipment";
+            this.Name = "FormAddEquipment";
             this.Resizable = false;
+            this.ShowInTaskbar = false;
             this.Style = MetroFramework.MetroColorStyle.Teal;
             this.Load += new System.EventHandler(this.AddEquipment_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

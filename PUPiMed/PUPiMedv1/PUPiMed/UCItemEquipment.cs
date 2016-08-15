@@ -24,7 +24,7 @@ namespace PUPiMed
         {
             equipmentForm = new FormAddEquipment(this);
             equipmentForm.choice = 0;
-            equipmentForm.Show();
+            equipmentForm.ShowDialog();
         }
 
         private void editequipment_Click(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace PUPiMed
                 equipmentForm.txtMin.Text = gridEquipment.CurrentRow.Cells[4].Value.ToString();
                 equipmentForm.txtMax.Text = gridEquipment.CurrentRow.Cells[5].Value.ToString();
 
-                equipmentForm.Show();
+                equipmentForm.ShowDialog();
             }
             
         }

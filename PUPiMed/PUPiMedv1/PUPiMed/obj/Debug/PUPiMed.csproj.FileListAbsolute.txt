@@ -8,7 +8,6 @@ C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MetroF
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.dll
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddEquipment.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddMedicine.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddPatient.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddSupply.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
@@ -29,4 +28,5 @@ C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMe
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItem.resources
-C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.AddSupplier.resources
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddSupplier.resources
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddItem.resources
