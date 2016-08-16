@@ -54,7 +54,7 @@ namespace PUPiMed
 
         private void ReceiveInventory_Click(object sender, EventArgs e)
         {
-            new FormReceiveInventory().ShowDialog();
+            new FormReceiveInventory(this).ShowDialog();
         }
     }
 }

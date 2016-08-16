@@ -9,12 +9,14 @@ namespace PUPiMed
 {
     public partial class FormReceiveInventory : MetroForm
     {
+        UCItemInventory parent;
         ArrayList alistCode, alistCode1;
         ComboBoxFn mn = new ComboBoxFn();
-        string strType, strCode, strName, strQty, strSupplier, strDate, strRCode;
+        string strType, strCode, strName, strQty, strSupplier, strExp, strRDate, strRCode;
 
-        public FormReceiveInventory()
+        public FormReceiveInventory(UCItemInventory parent)
         {
+            this.parent = parent;
             InitializeComponent();
             cbType.SelectedIndex = 0;
             loadItemComboBox(cbType.SelectedIndex+1);
@@ -25,8 +27,8 @@ namespace PUPiMed
         {
             if (!mn.fillComboBox(cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType="+type+" AND boolItemDeleted=FALSE;", out alistCode))
             {
-                //cbName.Items.Add("[Empty Library]");
                 pbAddItem.Focus();
+                txtCode.Text = "";
             }
             else
             {
@@ -58,7 +60,9 @@ namespace PUPiMed
 
         private void btncancel_Click(object sender, EventArgs e)
         {
+            this.parent.updateTable();
             this.Dispose();
+
         }
 
         private void pbAddItem_Click(object sender, EventArgs e)
@@ -79,28 +83,34 @@ namespace PUPiMed
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string[] row = new string[6];
-            if(getValues())
+            string[] row = new string[5];
+            int qty;
+            if (!detailIsOkay())
             {
-                row[0] = strType;
-                row[1] = strCode;
-                row[2] = strName;
-                row[3] = strQty;
-                //row[4] = strSupplier;
-                //row[5] = strDate;
-
-                listReceived.Items.Add(new ListViewItem(row));
+                MetroMessageBox.Show(this, "Please fill in the required fields before adding.");
             }
             else
             {
-                row[0] = strType;
-                row[1] = "Item Code";
-                row[2] = "Item Name";
-                row[3] = "Quantity";
-                //row[4] = "Supplier";
-                //row[5] = strDate;
-
-                listReceived.Items.Add(new ListViewItem(row));
+                if ((Int32.TryParse(strQty, out qty)))
+                {
+                    if (listReceived.FindItemWithText(strCode)==null)
+                    {
+                        row[0] = strType;
+                        row[1] = strCode;
+                        row[2] = strName;
+                        row[3] = strQty;
+                        row[4] = strExp;
+                        listReceived.Items.Add(new ListViewItem(row));
+                    }
+                    else
+                    {
+                        MetroMessageBox.Show(this, "Duplicate entry for " + strName + ".");
+                    }
+                }
+                else
+                {
+                    MetroMessageBox.Show(this, "Please enter a numeric value for 'Quantity'");
+                }
             }
         }
 
@@ -111,46 +121,109 @@ namespace PUPiMed
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if (headerIsOkay())
+            {
+                if (listReceived.Items.Count>0)
+                {
+                    if (saveHeader())
+                    {
+                        if (saveDetail())
+                        {
+                            MetroMessageBox.Show(this, "Saved");
+                            clearFields();
+                        }
+
+                    }
+                }
+                else
+                {
+                    MetroMessageBox.Show(this, "Please add an item first.");
+                }
+            }
+            else
+            {
+                MetroMessageBox.Show(this, "Please fill in the required fields before saving.");
+            }
+        }
+
+        private bool saveHeader()
+        {
+            string strQuery = "INSERT INTO tblReceiving VALUES('"+strRCode+"','"+alistCode1[cbSupplier.SelectedIndex]+"','"+strRDate+"');";
+            if (!Program.ExecuteQuery(strQuery))
+            {
+                return false;
+            }
+            return true;
+        }
+
+        private bool saveDetail()
+        {
+            string strQuery;
+            foreach (ListViewItem row in listReceived.Items)
+            {
+                strQuery =
+                    "INSERT INTO tblReceDetail VALUES ('"
+                    + strRCode + "','"
+                    + row.SubItems[1].Text + "',"
+                    + row.SubItems[3].Text + ",'"
+                    + row.SubItems[4].Text
+                    + "');";
+                //MessageBox.Show(strQuery);
+                if (!Program.ExecuteQuery(strQuery))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+       
+        private void clearFields()
+        {
+            cbType.SelectedIndex = 0;
+            loadItemComboBox(1);
+            loadSupplierComboBox();
+            txtQty.Clear();
+            txtRCode.Clear();
+            dtExp.Value = DateTime.Today;
+            dtReceived.Value = DateTime.Today;
+            listReceived.Items.Clear();
+            cbType.Focus();
 
         }
-        
+         
         private void pbAddSupplier_Click(object sender, EventArgs e)
         {
             new FormAddSupplier().ShowDialog();
             loadSupplierComboBox();
         }
 
-        private bool getValues()
+
+        private bool headerIsOkay()
         {
-            bool okay = true;
+            strRCode = txtRCode.Text;
+            strRDate = dtReceived.Value.ToString("yyyy-MM-dd");
+            strSupplier = cbSupplier.SelectedItem.ToString();
+            if (string.IsNullOrWhiteSpace(strRCode) || string.IsNullOrWhiteSpace(strRDate) || string.IsNullOrWhiteSpace(strSupplier))
+            {
+                return false;
+            }
+            return true;
+        }
+        
+
+        private bool detailIsOkay()
+        {
             strType = cbType.SelectedItem.ToString();
             strCode = txtCode.Text;
             strName = cbName.SelectedItem.ToString();
             strQty = txtQty.Text;
-            try
+            strExp = dtExp.Value.ToString("yyyy-MM-dd");
+            
+            if (string.IsNullOrWhiteSpace(strType) || string.IsNullOrWhiteSpace(strCode)|| string.IsNullOrWhiteSpace(strName)|| string.IsNullOrWhiteSpace(strQty) || string.IsNullOrWhiteSpace(strExp))
             {
-                strSupplier = cbSupplier.SelectedItem.ToString();
-            }catch(Exception ex)
-            {
-                MetroMessageBox.Show(this, ex.Message.ToString());
-                okay = false;
-            }            
-            strDate = dtReceived.Value.ToString("yyyy-MM-dd");
-
-            if(string.IsNullOrEmpty(strType)|| string.IsNullOrEmpty(strCode)|| string.IsNullOrEmpty(strName)
-                || string.IsNullOrEmpty(strQty)|| string.IsNullOrEmpty(strSupplier)|| string.IsNullOrEmpty(strDate))
-            {
-                okay = false;
+                return false;
             }
-
-           return okay;
-        }
-
-
-        private void dtReceived_ValueChanged(object sender, EventArgs e)
-        {
-            DateTime result = dtReceived.Value;
-            strDate = result.ToString();
+           return true;
         }
 
         private void metroButton1_Click(object sender, EventArgs e)
@@ -176,10 +249,6 @@ namespace PUPiMed
                 txtCode.Text = alistCode[cbName.SelectedIndex].ToString();
         }
 
-        private void addToList(string[] row)
-        {
-            listReceived.Items.Add("Item Code").SubItems.AddRange(row);
-        }
     }
 }
 
