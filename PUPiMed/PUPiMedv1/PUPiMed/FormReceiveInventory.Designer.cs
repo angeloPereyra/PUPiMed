@@ -57,6 +57,7 @@
             this.listName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.listQty = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.listReceived = new MaterialSkin.Controls.MaterialListView();
+            this.listExp = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.txtRCode = new MetroFramework.Controls.MetroTextBox();
             this.lblCode = new MetroFramework.Controls.MetroLabel();
             this.pbAddItem = new System.Windows.Forms.PictureBox();
@@ -67,7 +68,6 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.dtExp = new MetroFramework.Controls.MetroDateTime();
-            this.listExp = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.gridRI)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAddItem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAddSupplier)).BeginInit();
@@ -375,6 +375,7 @@
             this.metroButton2.UseCustomBackColor = true;
             this.metroButton2.UseSelectable = true;
             this.metroButton2.UseStyleColors = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // cbName
             // 
@@ -421,7 +422,7 @@
             this.listQty,
             this.listExp});
             this.listReceived.Depth = 0;
-            this.listReceived.Font = new System.Drawing.Font("Roboto", 12F);
+            this.listReceived.Font = new System.Drawing.Font("Roboto", 24F);
             this.listReceived.FullRowSelect = true;
             this.listReceived.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.listReceived.Location = new System.Drawing.Point(21, 220);
@@ -434,6 +435,11 @@
             this.listReceived.TabIndex = 94;
             this.listReceived.UseCompatibleStateImageBehavior = false;
             this.listReceived.View = System.Windows.Forms.View.Details;
+            // 
+            // listExp
+            // 
+            this.listExp.Text = "Exp";
+            this.listExp.Width = 120;
             // 
             // txtRCode
             // 
@@ -563,11 +569,6 @@
             this.dtExp.Style = MetroFramework.MetroColorStyle.Teal;
             this.dtExp.TabIndex = 106;
             this.dtExp.UseStyleColors = true;
-            // 
-            // listExp
-            // 
-            this.listExp.Text = "Exp";
-            this.listExp.Width = 120;
             // 
             // FormReceiveInventory
             // 

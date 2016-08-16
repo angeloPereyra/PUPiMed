@@ -1,6 +1,7 @@
 ﻿using MetroFramework;
 using MetroFramework.Forms;
 using System;
+using System.Windows.Forms;
 
 namespace PUPiMed
 {
@@ -27,7 +28,7 @@ namespace PUPiMed
                 
             }
             catch (Exception ex){
-                MetroMessageBox.Show(this, ex.Message, "Access Denied");
+                MetroMessageBox.Show(this, "Access Denied", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

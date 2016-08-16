@@ -87,7 +87,7 @@ namespace PUPiMed
             int qty;
             if (!detailIsOkay())
             {
-                MetroMessageBox.Show(this, "Please fill in the required fields before adding.");
+                MetroMessageBox.Show(this, "Please fill in the required fields before adding.","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -101,15 +101,20 @@ namespace PUPiMed
                         row[3] = strQty;
                         row[4] = strExp;
                         listReceived.Items.Add(new ListViewItem(row));
+                        cbType.SelectedIndex = 0;
+                        cbName.SelectedIndex = 0;
+                        txtQty.Clear();
+                        dtExp.Value = DateTime.Today;
+                        cbType.Focus();
                     }
                     else
                     {
-                        MetroMessageBox.Show(this, "Duplicate entry for " + strName + ".");
+                        MetroMessageBox.Show(this, "Duplicate entry for " + strName + ".", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
                 {
-                    MetroMessageBox.Show(this, "Please enter a numeric value for 'Quantity'");
+                    MetroMessageBox.Show(this, "Please enter a numeric value for 'Quantity'", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -129,7 +134,7 @@ namespace PUPiMed
                     {
                         if (saveDetail())
                         {
-                            MetroMessageBox.Show(this, "Saved");
+                            MetroMessageBox.Show(this, "Success.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Question);
                             clearFields();
                         }
 
@@ -137,12 +142,12 @@ namespace PUPiMed
                 }
                 else
                 {
-                    MetroMessageBox.Show(this, "Please add an item first.");
+                    MetroMessageBox.Show(this, "Please add an item first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MetroMessageBox.Show(this, "Please fill in the required fields before saving.");
+                MetroMessageBox.Show(this, "Please fill in the required fields before saving.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -154,6 +159,21 @@ namespace PUPiMed
                 return false;
             }
             return true;
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem row in listReceived.SelectedItems)
+            {
+                listReceived.Items.Remove(row);
+
+                cbType.SelectedItem = row.SubItems[0].Text;
+                txtCode.Text = row.SubItems[1].Text;
+                cbName.SelectedItem = row.SubItems[2].Text;
+                txtQty.Text = row.SubItems[3].Text;
+                dtExp.Value = DateTime.Parse(row.SubItems[4].Text);
+
+            }
         }
 
         private bool saveDetail()

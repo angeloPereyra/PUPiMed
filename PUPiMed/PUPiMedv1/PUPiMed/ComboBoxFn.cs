@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections;
+using System.Windows.Forms;
 
 namespace PUPiMed
 {
@@ -44,7 +45,7 @@ namespace PUPiMed
                 comboBox.SelectedIndex = 0;
             }catch(Exception ex)
             {
-                MetroFramework.MetroMessageBox.Show(null, ex.Message.ToString());
+                MessageBox.Show(ex.Message.ToString());
             }
             finally
             {

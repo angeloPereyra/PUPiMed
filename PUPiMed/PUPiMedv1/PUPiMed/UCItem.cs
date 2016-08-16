@@ -93,29 +93,31 @@ namespace PUPiMed
 
         private void deletemedicine_Click(object sender, EventArgs e)
         {
-            var result = MetroMessageBox.Show(this.Parent.Parent ,"Are you sure?", "DELETE CONFIRMATION",MessageBoxButtons.YesNo,MessageBoxIcon.None);
-            if (result == DialogResult.Yes)
+            if (grid.CurrentRow != null)
             {
-                string strQuery;
-                string col1;
-                if (grid.CurrentRow.Cells[0] != null)
+                var result = MetroMessageBox.Show(this.Parent.Parent, "Are you sure?", "DELETE CONFIRMATION", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+                if (result == DialogResult.Yes)
                 {
-                    col1 = grid.CurrentRow.Cells[0].Value.ToString();
-
-                    strQuery = "UPDATE tblItem SET boolItemDeleted=1 WHERE strItemCode = '" + col1 + "';";
-
-                    if (Program.ExecuteQuery(strQuery))
+                    string strQuery;
+                    string col1;
+                    if (grid.CurrentRow.Cells[0] != null)
                     {
-                        //success
-                        updateTable();
-                    }
-                    else
-                    {
-                        //fail
+                        col1 = grid.CurrentRow.Cells[0].Value.ToString();
+
+                        strQuery = "UPDATE tblItem SET boolItemDeleted=1, dtmItemDeleted=NOW(), strItemDeleted=CURRENT_USER WHERE strItemCode = '" + col1 + "';";
+
+                        if (Program.ExecuteQuery(strQuery))
+                        {
+                            //success
+                            updateTable();
+                        }
+                        else
+                        {
+                            //fail
+                        }
                     }
                 }
             }
-            
         }
     }
 }
