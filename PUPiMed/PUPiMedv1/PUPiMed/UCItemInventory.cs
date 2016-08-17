@@ -56,5 +56,10 @@ namespace PUPiMed
         {
             new FormReceiveInventory(this).ShowDialog();
         }
+
+        private void gridItemInventory_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

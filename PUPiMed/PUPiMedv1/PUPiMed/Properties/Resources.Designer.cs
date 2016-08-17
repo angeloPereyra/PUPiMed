@@ -525,7 +525,7 @@ namespace PUPiMed.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap supplier_icon {
             get {
-                object obj = ResourceManager.GetObject("supplier-icon", resourceCulture);
+                object obj = ResourceManager.GetObject("supplier_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -578,7 +578,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(960, 645);
-            this.ControlBox = false;
             this.Controls.Add(this.dtExp);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
@@ -605,7 +604,6 @@
             this.Controls.Add(this.gridRI);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FormReceiveInventory";
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Teal;

@@ -81,9 +81,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gridItemInventory.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.gridItemInventory.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
             this.gridItemInventory.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.gridItemInventory.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.gridItemInventory.CausesValidation = false;
             this.gridItemInventory.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.gridItemInventory.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -138,6 +138,7 @@
             this.gridItemInventory.Style = MetroFramework.MetroColorStyle.Teal;
             this.gridItemInventory.TabIndex = 27;
             this.gridItemInventory.UseStyleColors = true;
+            this.gridItemInventory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridItemInventory_CellContentClick);
             // 
             // pictureBox1
             // 

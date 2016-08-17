@@ -7,7 +7,6 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 -- -----------------------------------------------------
 -- Schema dbmedicalclinic
 -- -----------------------------------------------------
-DROP SCHEMA IF EXISTS `dbmedicalclinic` ;
 
 -- -----------------------------------------------------
 -- Schema dbmedicalclinic
@@ -18,8 +17,6 @@ USE `dbmedicalclinic` ;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblAddress`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblAddress` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblAddress` (
   `strAddrCode` CHAR(20) NOT NULL DEFAULT 'ADDR-000' COMMENT '',
   `strAddrNum` CHAR(50) NOT NULL COMMENT '',
@@ -34,8 +31,6 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tbldistributor`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tbldistributor` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tbldistributor` (
   `strDistCode` CHAR(20) NOT NULL COMMENT '',
   `strDistName` CHAR(100) NOT NULL COMMENT '',
@@ -56,8 +51,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblreceiving`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblreceiving` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblreceiving` (
   `strReceCode` CHAR(20) NOT NULL COMMENT '',
   `strReceDistCode` CHAR(20) NOT NULL COMMENT '',
@@ -77,8 +70,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblmanufacturer`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblmanufacturer` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblmanufacturer` (
   `strManuCode` CHAR(20) NOT NULL COMMENT '',
   `strManuName` CHAR(100) NOT NULL COMMENT '',
@@ -90,8 +81,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblitem`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblitem` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblitem` (
   `strItemCode` CHAR(20) NOT NULL COMMENT '',
   `strItemName` CHAR(50) NOT NULL COMMENT '',
@@ -118,8 +107,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblReceDetail`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblReceDetail` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblReceDetail` (
   `strReceCode` CHAR(20) NOT NULL COMMENT '',
   `strReceItemCode` CHAR(20) NOT NULL COMMENT '',
@@ -144,8 +131,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblbranch`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblbranch` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblbranch` (
   `strBranCode` CHAR(20) NOT NULL COMMENT '',
   `strBranDesc` CHAR(50) NOT NULL COMMENT '',
@@ -158,8 +143,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblBranchDistribution`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblBranchDistribution` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblBranchDistribution` (
   `strBraDCode` CHAR(20) NOT NULL COMMENT '',
   `dtmBraDDate` DATETIME NOT NULL COMMENT '',
@@ -172,8 +155,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblBranCampusDetail`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblBranCampusDetail` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblBranCampusDetail` (
   `strBraDCode` CHAR(20) NOT NULL COMMENT '',
   `strBraDBranCode` CHAR(20) NOT NULL COMMENT '',
@@ -196,8 +177,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblBranItemDetail`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblBranItemDetail` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblBranItemDetail` (
   `strBDIDBradCode` CHAR(20) NOT NULL COMMENT '',
   `strBDIDItemCode` CHAR(20) NOT NULL COMMENT '',
@@ -222,8 +201,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tblpatient`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tblpatient` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tblpatient` (
   `strPatiCode` CHAR(20) NOT NULL COMMENT '',
   `intPatiType` TINYINT(4) NOT NULL COMMENT '',
@@ -245,8 +222,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tbllogs`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tbllogs` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tbllogs` (
   `strLogsCode` CHAR(20) NOT NULL COMMENT '',
   `datLogsDatetime` DATETIME NOT NULL COMMENT '',
@@ -268,8 +243,6 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `dbmedicalclinic`.`tbllogsdetail`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `dbmedicalclinic`.`tbllogsdetail` ;
-
 CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tbllogsdetail` (
   `strLogDLogsCode` CHAR(20) NOT NULL COMMENT '',
   `strLogDItemCode` CHAR(20) NOT NULL COMMENT '',
@@ -290,10 +263,6 @@ CREATE TABLE IF NOT EXISTS `dbmedicalclinic`.`tbllogsdetail` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
-SET SQL_MODE = '';
-GRANT USAGE ON *.* TO admin;
- DROP USER admin;
-SET SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 CREATE USER 'admin' IDENTIFIED BY 'admin';
 
 GRANT SELECT, INSERT, TRIGGER ON TABLE `dbmedicalclinic`.* TO 'admin';

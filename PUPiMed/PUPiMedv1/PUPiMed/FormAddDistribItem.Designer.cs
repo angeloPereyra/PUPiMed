@@ -79,7 +79,7 @@
             this.metroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel8.Location = new System.Drawing.Point(53, 318);
             this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(83, 19);
+            this.metroLabel8.Size = new System.Drawing.Size(84, 19);
             this.metroLabel8.Style = MetroFramework.MetroColorStyle.Teal;
             this.metroLabel8.TabIndex = 37;
             this.metroLabel8.Text = "Item Type :";
@@ -223,7 +223,7 @@
             this.metroLabel7.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel7.Location = new System.Drawing.Point(644, 318);
             this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(54, 19);
+            this.metroLabel7.Size = new System.Drawing.Size(55, 19);
             this.metroLabel7.Style = MetroFramework.MetroColorStyle.Teal;
             this.metroLabel7.TabIndex = 65;
             this.metroLabel7.Text = "Total : ";
@@ -668,7 +668,7 @@
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.title.Location = new System.Drawing.Point(268, 40);
+            this.title.Location = new System.Drawing.Point(268, 26);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(357, 36);
             this.title.TabIndex = 107;
@@ -720,9 +720,9 @@
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroLabel8);
             this.Controls.Add(this.pictureBox12);
+            this.MaximizeBox = false;
             this.Name = "FormAddDistribItem";
             this.Resizable = false;
-            this.ShowInTaskbar = false;
             this.Style = MetroFramework.MetroColorStyle.Teal;
             this.TransparencyKey = System.Drawing.Color.Empty;
             this.Load += new System.EventHandler(this.FormAddDistribItem_Load);

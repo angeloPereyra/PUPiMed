@@ -56,3 +56,8 @@ C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\De
 C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
 C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
 C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.TrustInfo.xml
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.manifest
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.application
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe.manifest
+C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.application
