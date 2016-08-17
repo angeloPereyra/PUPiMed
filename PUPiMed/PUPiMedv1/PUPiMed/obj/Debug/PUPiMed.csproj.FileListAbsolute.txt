@@ -27,3 +27,32 @@ C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMe
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddSupplier.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddItem.resources
 C:\Users\ty'\Documents\GitHub\pupimed\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\Resources\database.txt
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe.config
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.exe
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.pdb
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\Resources\database.txt
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.exe
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\PUPiMed.pdb
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MaterialSkin.dll
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.Design.dll
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.dll
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\bin\Debug\MySql.Data.dll
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddSupplier.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddItem.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddPatient.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.MainForm.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormAddDistribItem.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.FormReceiveInventory.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Login.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.Properties.Resources.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCAdminTab.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCFacultyTab.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemDistribution.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemInventory.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItemLibrary.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCItem.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCPatientLogs_DTR_.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.UCStudentTab.resources
+C:\Users\Dell\Documents\Visual Studio 2015\pupi\PUPiMed\PUPiMedv1\PUPiMed\obj\Debug\PUPiMed.csproj.GenerateResource.Cache

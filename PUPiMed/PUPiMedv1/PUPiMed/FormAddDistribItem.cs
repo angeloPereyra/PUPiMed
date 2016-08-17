@@ -1,146 +1,30 @@
-﻿using MetroFramework.Forms;
+﻿using MetroFramework;
+using MetroFramework.Forms;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+using System.Collections;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PUPiMed
 {
     public partial class FormAddDistribItem : MetroForm
     {
-        public FormAddDistribItem()
+
+        UCItemDistribution parent;
+        ArrayList alistCode;
+        ComboBoxFn mn = new ComboBoxFn();
+        string strType, strCode, strName, strQty, strSupplier, strExp, strRDate, strRCode;
+
+        public FormAddDistribItem(UCItemDistribution parent)
         {
             InitializeComponent();
-            
+            this.parent = parent;
+            cbType.SelectedIndex = 0;
+            cbUOM.SelectedIndex = 0;
+            cbType.Focus();
         }
 
         private void FormAddDistribItem_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox3_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox5_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox6_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox7_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox8_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox9_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox10_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox11_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox12_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox13_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox14_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialCheckBox15_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void itemcode_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void metroLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void itemtype_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroLabel8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void balance_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroLabel9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void total_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroLabel7_Click(object sender, EventArgs e)
         {
 
         }
@@ -150,49 +34,50 @@ namespace PUPiMed
 
         }
 
-        private void metroLabel6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void qty_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroLabel5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void available_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void metroLabel4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            MetroMessageBox.Show(this, "Success.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Question);
+   
         }
 
         private void btncancel_Click(object sender, EventArgs e)
         {
+            //this.parent.updateTable();
             this.Dispose();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void cbName_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if (cbName.SelectedIndex <= alistCode.Count && alistCode != null)
+                txtCode.Text = alistCode[cbName.SelectedIndex].ToString();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void loadItemComboBox(int type)
         {
+            if (!mn.fillComboBox(cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=" + type + " AND boolItemDeleted=FALSE;", out alistCode))
+            {
+                txtCode.Text = "";
+            }
+            else
+            {
+                txtCode.Text = alistCode[0].ToString();
+            }
+            cbName.SelectedIndex = 0;
 
+        }
+        private void cbType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (!mn.fillComboBox(cbName, "SELECT strItemCode, strItemName FROM tblItem WHERE intItemType=" + (cbType.SelectedIndex + 1) + " AND boolItemDeleted=0;", out alistCode))
+            {
+                status.Text = "No available item";
+                status.BackColor = Color.Tomato;
+            }
+            else
+            {
+                cbName.SelectedIndex = 0;
+                status.Text = "";
+                status.BackColor = Color.DarkCyan;
+            }
         }
     }
 }

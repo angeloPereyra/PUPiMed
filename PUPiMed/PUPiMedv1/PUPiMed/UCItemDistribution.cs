@@ -39,7 +39,7 @@ namespace PUPiMed
 
         private void AddDistibItem_Click(object sender, EventArgs e)
         {
-            new FormAddDistribItem().ShowDialog();
+            new FormAddDistribItem(this).ShowDialog();
         }
     }
 }

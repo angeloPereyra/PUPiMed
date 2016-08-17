@@ -223,10 +223,11 @@
             // 
             this.btnCancel.AccessibleName = "btncancel";
             this.btnCancel.BackColor = System.Drawing.Color.White;
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Highlight = true;
             this.btnCancel.Location = new System.Drawing.Point(832, 582);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(116, 37);
+            this.btnCancel.Size = new System.Drawing.Size(99, 37);
             this.btnCancel.Style = MetroFramework.MetroColorStyle.Teal;
             this.btnCancel.TabIndex = 113;
             this.btnCancel.Text = "     Cancel";
@@ -239,9 +240,9 @@
             // 
             this.btnSave.AccessibleName = "btnadd";
             this.btnSave.Highlight = true;
-            this.btnSave.Location = new System.Drawing.Point(710, 582);
+            this.btnSave.Location = new System.Drawing.Point(713, 582);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(116, 37);
+            this.btnSave.Size = new System.Drawing.Size(99, 37);
             this.btnSave.Style = MetroFramework.MetroColorStyle.Teal;
             this.btnSave.TabIndex = 112;
             this.btnSave.Text = "   Save";
@@ -515,7 +516,7 @@
             this.picSave.BackColor = System.Drawing.Color.Transparent;
             this.picSave.BackgroundImage = global::PUPiMed.Properties.Resources.add_teal_box;
             this.picSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picSave.Location = new System.Drawing.Point(716, 587);
+            this.picSave.Location = new System.Drawing.Point(719, 587);
             this.picSave.Name = "picSave";
             this.picSave.Size = new System.Drawing.Size(26, 26);
             this.picSave.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -572,8 +573,10 @@
             // 
             // FormReceiveInventory
             // 
+            this.AcceptButton = this.btnSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(960, 645);
             this.ControlBox = false;
             this.Controls.Add(this.dtExp);
