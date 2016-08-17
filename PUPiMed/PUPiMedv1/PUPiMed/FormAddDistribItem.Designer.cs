@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.lblAddpatient = new MaterialSkin.Controls.MaterialLabel();
-            this.basicinfo = new MetroFramework.Controls.MetroTile();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.itemtype = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.itemcode = new MetroFramework.Controls.MetroTextBox();
@@ -66,7 +64,9 @@
             this.btncancel = new MetroFramework.Controls.MetroButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAdd = new MetroFramework.Controls.MetroButton();
-            this.itemname = new MetroFramework.Controls.MetroComboBox();
+            this.status = new MetroFramework.Controls.MetroTile();
+            this.cbName = new MetroFramework.Controls.MetroComboBox();
+            this.cbType = new MetroFramework.Controls.MetroComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -75,43 +75,20 @@
             // lblAddpatient
             // 
             this.lblAddpatient.AccessibleName = "lblAddPatient";
-            this.lblAddpatient.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAddpatient.Depth = 0;
             this.lblAddpatient.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblAddpatient.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblAddpatient.Location = new System.Drawing.Point(-2, 8);
+            this.lblAddpatient.Location = new System.Drawing.Point(169, 8);
             this.lblAddpatient.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblAddpatient.Name = "lblAddpatient";
-            this.lblAddpatient.Size = new System.Drawing.Size(883, 83);
+            this.lblAddpatient.Size = new System.Drawing.Size(550, 83);
             this.lblAddpatient.TabIndex = 35;
             this.lblAddpatient.Text = "ADD ITEM TO DISTRIBUTE";
             this.lblAddpatient.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // basicinfo
-            // 
-            this.basicinfo.AccessibleName = "basicinfos";
-            this.basicinfo.ActiveControl = null;
-            this.basicinfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.basicinfo.BackColor = System.Drawing.Color.DarkCyan;
-            this.basicinfo.Enabled = false;
-            this.basicinfo.Location = new System.Drawing.Point(15, 79);
-            this.basicinfo.Name = "basicinfo";
-            this.basicinfo.Size = new System.Drawing.Size(815, 21);
-            this.basicinfo.TabIndex = 36;
-            this.basicinfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.basicinfo.UseCustomBackColor = true;
-            this.basicinfo.UseSelectable = true;
-            // 
             // metroLabel8
             // 
             this.metroLabel8.AccessibleName = "ptype";
-            this.metroLabel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel8.AutoSize = true;
             this.metroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel8.Location = new System.Drawing.Point(79, 315);
@@ -122,32 +99,9 @@
             this.metroLabel8.Text = "Item Type :";
             this.metroLabel8.Click += new System.EventHandler(this.metroLabel8_Click);
             // 
-            // itemtype
-            // 
-            this.itemtype.AccessibleName = "ptype";
-            this.itemtype.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.itemtype.FormattingEnabled = true;
-            this.itemtype.ItemHeight = 23;
-            this.itemtype.Items.AddRange(new object[] {
-            "Medicines",
-            "Supplies",
-            "Equipments"});
-            this.itemtype.Location = new System.Drawing.Point(169, 305);
-            this.itemtype.Name = "itemtype";
-            this.itemtype.Size = new System.Drawing.Size(185, 29);
-            this.itemtype.Style = MetroFramework.MetroColorStyle.Teal;
-            this.itemtype.TabIndex = 38;
-            this.itemtype.UseSelectable = true;
-            this.itemtype.SelectedIndexChanged += new System.EventHandler(this.itemtype_SelectedIndexChanged);
-            // 
             // metroLabel1
             // 
             this.metroLabel1.AccessibleName = "ptype";
-            this.metroLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel1.Location = new System.Drawing.Point(72, 346);
@@ -161,9 +115,6 @@
             // metroLabel2
             // 
             this.metroLabel2.AccessibleName = "ptype";
-            this.metroLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel2.Location = new System.Drawing.Point(77, 379);
@@ -177,10 +128,9 @@
             // itemcode
             // 
             this.itemcode.AccessibleName = "fname";
-            this.itemcode.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.itemcode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.itemcode.Enabled = false;
+            this.itemcode.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.itemcode.Lines = new string[0];
             this.itemcode.Location = new System.Drawing.Point(169, 375);
             this.itemcode.MaxLength = 32767;
@@ -190,7 +140,7 @@
             this.itemcode.SelectedText = "";
             this.itemcode.Size = new System.Drawing.Size(185, 23);
             this.itemcode.Style = MetroFramework.MetroColorStyle.Teal;
-            this.itemcode.TabIndex = 42;
+            this.itemcode.TabIndex = 0;
             this.itemcode.UseCustomBackColor = true;
             this.itemcode.UseSelectable = true;
             this.itemcode.Click += new System.EventHandler(this.itemcode_Click);
@@ -198,9 +148,6 @@
             // metroLabel4
             // 
             this.metroLabel4.AccessibleName = "ptype";
-            this.metroLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel4.Location = new System.Drawing.Point(380, 315);
@@ -214,10 +161,9 @@
             // available
             // 
             this.available.AccessibleName = "fname";
-            this.available.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.available.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.available.Enabled = false;
+            this.available.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.available.Lines = new string[0];
             this.available.Location = new System.Drawing.Point(476, 311);
             this.available.MaxLength = 32767;
@@ -227,7 +173,7 @@
             this.available.SelectedText = "";
             this.available.Size = new System.Drawing.Size(103, 23);
             this.available.Style = MetroFramework.MetroColorStyle.Teal;
-            this.available.TabIndex = 60;
+            this.available.TabIndex = 0;
             this.available.UseCustomBackColor = true;
             this.available.UseSelectable = true;
             this.available.Click += new System.EventHandler(this.available_Click);
@@ -235,9 +181,6 @@
             // metroLabel5
             // 
             this.metroLabel5.AccessibleName = "ptype";
-            this.metroLabel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel5.Location = new System.Drawing.Point(386, 346);
@@ -251,9 +194,7 @@
             // qty
             // 
             this.qty.AccessibleName = "fname";
-            this.qty.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.qty.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.qty.Lines = new string[0];
             this.qty.Location = new System.Drawing.Point(476, 342);
             this.qty.MaxLength = 32767;
@@ -263,7 +204,7 @@
             this.qty.SelectedText = "";
             this.qty.Size = new System.Drawing.Size(103, 23);
             this.qty.Style = MetroFramework.MetroColorStyle.Teal;
-            this.qty.TabIndex = 62;
+            this.qty.TabIndex = 40;
             this.qty.UseCustomBackColor = true;
             this.qty.UseSelectable = true;
             this.qty.Click += new System.EventHandler(this.qty_Click);
@@ -271,9 +212,6 @@
             // metroLabel6
             // 
             this.metroLabel6.AccessibleName = "ptype";
-            this.metroLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel6.AutoSize = true;
             this.metroLabel6.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel6.Location = new System.Drawing.Point(407, 379);
@@ -287,25 +225,19 @@
             // UOM
             // 
             this.UOM.AccessibleName = "ptype";
-            this.UOM.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.UOM.FormattingEnabled = true;
             this.UOM.ItemHeight = 23;
             this.UOM.Location = new System.Drawing.Point(476, 375);
             this.UOM.Name = "UOM";
             this.UOM.Size = new System.Drawing.Size(103, 29);
             this.UOM.Style = MetroFramework.MetroColorStyle.Teal;
-            this.UOM.TabIndex = 64;
+            this.UOM.TabIndex = 41;
             this.UOM.UseSelectable = true;
             this.UOM.SelectedIndexChanged += new System.EventHandler(this.UOM_SelectedIndexChanged);
             // 
             // metroLabel7
             // 
             this.metroLabel7.AccessibleName = "ptype";
-            this.metroLabel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel7.AutoSize = true;
             this.metroLabel7.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel7.Location = new System.Drawing.Point(644, 315);
@@ -319,9 +251,9 @@
             // total
             // 
             this.total.AccessibleName = "fname";
-            this.total.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.total.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.total.Enabled = false;
+            this.total.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.total.Lines = new string[0];
             this.total.Location = new System.Drawing.Point(711, 311);
             this.total.MaxLength = 32767;
@@ -331,7 +263,7 @@
             this.total.SelectedText = "";
             this.total.Size = new System.Drawing.Size(74, 23);
             this.total.Style = MetroFramework.MetroColorStyle.Teal;
-            this.total.TabIndex = 66;
+            this.total.TabIndex = 0;
             this.total.UseCustomBackColor = true;
             this.total.UseSelectable = true;
             this.total.Click += new System.EventHandler(this.total_Click);
@@ -339,9 +271,6 @@
             // metroLabel9
             // 
             this.metroLabel9.AccessibleName = "ptype";
-            this.metroLabel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel9.AutoSize = true;
             this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel9.Location = new System.Drawing.Point(626, 346);
@@ -355,10 +284,9 @@
             // balance
             // 
             this.balance.AccessibleName = "fname";
-            this.balance.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.balance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.balance.Enabled = false;
+            this.balance.FontSize = MetroFramework.MetroTextBoxSize.Medium;
             this.balance.Lines = new string[0];
             this.balance.Location = new System.Drawing.Point(711, 342);
             this.balance.MaxLength = 32767;
@@ -368,17 +296,16 @@
             this.balance.SelectedText = "";
             this.balance.Size = new System.Drawing.Size(74, 23);
             this.balance.Style = MetroFramework.MetroColorStyle.Teal;
-            this.balance.TabIndex = 68;
+            this.balance.TabIndex = 0;
             this.balance.UseCustomBackColor = true;
             this.balance.UseSelectable = true;
             this.balance.Click += new System.EventHandler(this.balance_Click);
             // 
             // materialCheckBox11
             // 
-            this.materialCheckBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox11.AutoSize = true;
+            this.materialCheckBox11.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox11.Depth = 0;
             this.materialCheckBox11.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox11.Location = new System.Drawing.Point(685, 243);
@@ -390,15 +317,14 @@
             this.materialCheckBox11.Size = new System.Drawing.Size(72, 30);
             this.materialCheckBox11.TabIndex = 84;
             this.materialCheckBox11.Text = "Unisan";
-            this.materialCheckBox11.UseVisualStyleBackColor = true;
+            this.materialCheckBox11.UseVisualStyleBackColor = false;
             this.materialCheckBox11.CheckedChanged += new System.EventHandler(this.materialCheckBox11_CheckedChanged);
             // 
             // materialCheckBox12
             // 
-            this.materialCheckBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox12.AutoSize = true;
+            this.materialCheckBox12.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox12.Depth = 0;
             this.materialCheckBox12.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox12.Location = new System.Drawing.Point(685, 213);
@@ -410,15 +336,14 @@
             this.materialCheckBox12.Size = new System.Drawing.Size(68, 30);
             this.materialCheckBox12.TabIndex = 83;
             this.materialCheckBox12.Text = "Ragay";
-            this.materialCheckBox12.UseVisualStyleBackColor = true;
+            this.materialCheckBox12.UseVisualStyleBackColor = false;
             this.materialCheckBox12.CheckedChanged += new System.EventHandler(this.materialCheckBox12_CheckedChanged);
             // 
             // materialCheckBox13
             // 
-            this.materialCheckBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox13.AutoSize = true;
+            this.materialCheckBox13.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox13.Depth = 0;
             this.materialCheckBox13.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox13.Location = new System.Drawing.Point(685, 153);
@@ -430,15 +355,14 @@
             this.materialCheckBox13.Size = new System.Drawing.Size(82, 30);
             this.materialCheckBox13.TabIndex = 82;
             this.materialCheckBox13.Text = "Malanay";
-            this.materialCheckBox13.UseVisualStyleBackColor = true;
+            this.materialCheckBox13.UseVisualStyleBackColor = false;
             this.materialCheckBox13.CheckedChanged += new System.EventHandler(this.materialCheckBox13_CheckedChanged);
             // 
             // materialCheckBox14
             // 
-            this.materialCheckBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox14.AutoSize = true;
+            this.materialCheckBox14.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox14.Depth = 0;
             this.materialCheckBox14.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox14.Location = new System.Drawing.Point(685, 183);
@@ -450,15 +374,14 @@
             this.materialCheckBox14.Size = new System.Drawing.Size(100, 30);
             this.materialCheckBox14.TabIndex = 81;
             this.materialCheckBox14.Text = "Sto. Tomas";
-            this.materialCheckBox14.UseVisualStyleBackColor = true;
+            this.materialCheckBox14.UseVisualStyleBackColor = false;
             this.materialCheckBox14.CheckedChanged += new System.EventHandler(this.materialCheckBox14_CheckedChanged);
             // 
             // materialCheckBox15
             // 
-            this.materialCheckBox15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox15.AutoSize = true;
+            this.materialCheckBox15.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox15.Depth = 0;
             this.materialCheckBox15.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox15.Location = new System.Drawing.Point(685, 123);
@@ -470,15 +393,14 @@
             this.materialCheckBox15.Size = new System.Drawing.Size(67, 30);
             this.materialCheckBox15.TabIndex = 80;
             this.materialCheckBox15.Text = "Lopez";
-            this.materialCheckBox15.UseVisualStyleBackColor = true;
+            this.materialCheckBox15.UseVisualStyleBackColor = false;
             this.materialCheckBox15.CheckedChanged += new System.EventHandler(this.materialCheckBox15_CheckedChanged);
             // 
             // materialCheckBox6
             // 
-            this.materialCheckBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox6.AutoSize = true;
+            this.materialCheckBox6.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox6.Depth = 0;
             this.materialCheckBox6.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox6.Location = new System.Drawing.Point(510, 243);
@@ -490,15 +412,14 @@
             this.materialCheckBox6.Size = new System.Drawing.Size(69, 30);
             this.materialCheckBox6.TabIndex = 79;
             this.materialCheckBox6.Text = "Cavite";
-            this.materialCheckBox6.UseVisualStyleBackColor = true;
+            this.materialCheckBox6.UseVisualStyleBackColor = false;
             this.materialCheckBox6.CheckedChanged += new System.EventHandler(this.materialCheckBox6_CheckedChanged);
             // 
             // materialCheckBox7
             // 
-            this.materialCheckBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox7.AutoSize = true;
+            this.materialCheckBox7.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox7.Depth = 0;
             this.materialCheckBox7.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox7.Location = new System.Drawing.Point(510, 213);
@@ -510,15 +431,14 @@
             this.materialCheckBox7.Size = new System.Drawing.Size(73, 30);
             this.materialCheckBox7.TabIndex = 78;
             this.materialCheckBox7.Text = "Bataan";
-            this.materialCheckBox7.UseVisualStyleBackColor = true;
+            this.materialCheckBox7.UseVisualStyleBackColor = false;
             this.materialCheckBox7.CheckedChanged += new System.EventHandler(this.materialCheckBox7_CheckedChanged);
             // 
             // materialCheckBox8
             // 
-            this.materialCheckBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox8.AutoSize = true;
+            this.materialCheckBox8.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox8.Depth = 0;
             this.materialCheckBox8.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox8.Location = new System.Drawing.Point(510, 153);
@@ -530,15 +450,14 @@
             this.materialCheckBox8.Size = new System.Drawing.Size(72, 30);
             this.materialCheckBox8.TabIndex = 77;
             this.materialCheckBox8.Text = "Taguig";
-            this.materialCheckBox8.UseVisualStyleBackColor = true;
+            this.materialCheckBox8.UseVisualStyleBackColor = false;
             this.materialCheckBox8.CheckedChanged += new System.EventHandler(this.materialCheckBox8_CheckedChanged);
             // 
             // materialCheckBox9
             // 
-            this.materialCheckBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox9.AutoSize = true;
+            this.materialCheckBox9.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox9.Depth = 0;
             this.materialCheckBox9.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox9.Location = new System.Drawing.Point(510, 183);
@@ -550,15 +469,14 @@
             this.materialCheckBox9.Size = new System.Drawing.Size(64, 30);
             this.materialCheckBox9.TabIndex = 76;
             this.materialCheckBox9.Text = "ITech";
-            this.materialCheckBox9.UseVisualStyleBackColor = true;
+            this.materialCheckBox9.UseVisualStyleBackColor = false;
             this.materialCheckBox9.CheckedChanged += new System.EventHandler(this.materialCheckBox9_CheckedChanged);
             // 
             // materialCheckBox10
             // 
-            this.materialCheckBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox10.AutoSize = true;
+            this.materialCheckBox10.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox10.Depth = 0;
             this.materialCheckBox10.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox10.Location = new System.Drawing.Point(510, 123);
@@ -570,15 +488,14 @@
             this.materialCheckBox10.Size = new System.Drawing.Size(127, 30);
             this.materialCheckBox10.TabIndex = 75;
             this.materialCheckBox10.Text = "Commonwealth";
-            this.materialCheckBox10.UseVisualStyleBackColor = true;
+            this.materialCheckBox10.UseVisualStyleBackColor = false;
             this.materialCheckBox10.CheckedChanged += new System.EventHandler(this.materialCheckBox10_CheckedChanged);
             // 
             // materialCheckBox5
             // 
-            this.materialCheckBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox5.AutoSize = true;
+            this.materialCheckBox5.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox5.Depth = 0;
             this.materialCheckBox5.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox5.Location = new System.Drawing.Point(331, 243);
@@ -590,15 +507,14 @@
             this.materialCheckBox5.Size = new System.Drawing.Size(77, 30);
             this.materialCheckBox5.TabIndex = 74;
             this.materialCheckBox5.Text = "Hasmin";
-            this.materialCheckBox5.UseVisualStyleBackColor = true;
+            this.materialCheckBox5.UseVisualStyleBackColor = false;
             this.materialCheckBox5.CheckedChanged += new System.EventHandler(this.materialCheckBox5_CheckedChanged);
             // 
             // materialCheckBox4
             // 
-            this.materialCheckBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox4.AutoSize = true;
+            this.materialCheckBox4.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox4.Depth = 0;
             this.materialCheckBox4.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox4.Location = new System.Drawing.Point(331, 213);
@@ -610,15 +526,14 @@
             this.materialCheckBox4.Size = new System.Drawing.Size(88, 30);
             this.materialCheckBox4.TabIndex = 73;
             this.materialCheckBox4.Text = "NDC-CEA";
-            this.materialCheckBox4.UseVisualStyleBackColor = true;
+            this.materialCheckBox4.UseVisualStyleBackColor = false;
             this.materialCheckBox4.CheckedChanged += new System.EventHandler(this.materialCheckBox4_CheckedChanged);
             // 
             // materialCheckBox3
             // 
-            this.materialCheckBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox3.AutoSize = true;
+            this.materialCheckBox3.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox3.Depth = 0;
             this.materialCheckBox3.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox3.Location = new System.Drawing.Point(331, 153);
@@ -630,15 +545,14 @@
             this.materialCheckBox3.Size = new System.Drawing.Size(104, 30);
             this.materialCheckBox3.TabIndex = 72;
             this.materialCheckBox3.Text = "High School";
-            this.materialCheckBox3.UseVisualStyleBackColor = true;
+            this.materialCheckBox3.UseVisualStyleBackColor = false;
             this.materialCheckBox3.CheckedChanged += new System.EventHandler(this.materialCheckBox3_CheckedChanged);
             // 
             // materialCheckBox2
             // 
-            this.materialCheckBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox2.AutoSize = true;
+            this.materialCheckBox2.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox2.Depth = 0;
             this.materialCheckBox2.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox2.Location = new System.Drawing.Point(331, 183);
@@ -650,15 +564,14 @@
             this.materialCheckBox2.Size = new System.Drawing.Size(57, 30);
             this.materialCheckBox2.TabIndex = 71;
             this.materialCheckBox2.Text = "COC";
-            this.materialCheckBox2.UseVisualStyleBackColor = true;
+            this.materialCheckBox2.UseVisualStyleBackColor = false;
             this.materialCheckBox2.CheckedChanged += new System.EventHandler(this.materialCheckBox2_CheckedChanged);
             // 
             // materialCheckBox1
             // 
-            this.materialCheckBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialCheckBox1.AutoSize = true;
+            this.materialCheckBox1.BackColor = System.Drawing.Color.Transparent;
+            this.materialCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialCheckBox1.Depth = 0;
             this.materialCheckBox1.Font = new System.Drawing.Font("Roboto", 10F);
             this.materialCheckBox1.Location = new System.Drawing.Point(331, 123);
@@ -670,15 +583,12 @@
             this.materialCheckBox1.Size = new System.Drawing.Size(69, 30);
             this.materialCheckBox1.TabIndex = 70;
             this.materialCheckBox1.Text = "Dental";
-            this.materialCheckBox1.UseVisualStyleBackColor = true;
+            this.materialCheckBox1.UseVisualStyleBackColor = false;
             this.materialCheckBox1.CheckedChanged += new System.EventHandler(this.materialCheckBox1_CheckedChanged);
             // 
             // metroLabel3
             // 
             this.metroLabel3.AccessibleName = "ptype";
-            this.metroLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.metroLabel3.AutoSize = true;
             this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel3.Location = new System.Drawing.Point(169, 125);
@@ -690,41 +600,33 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox12.Image = global::PUPiMed.Properties.Resources.deliver_teal;
-            this.pictureBox12.Location = new System.Drawing.Point(15, 118);
+            this.pictureBox12.Location = new System.Drawing.Point(15, 104);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(313, 204);
+            this.pictureBox12.Size = new System.Drawing.Size(313, 225);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 85;
             this.pictureBox12.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.White;
             this.pictureBox2.BackgroundImage = global::PUPiMed.Properties.Resources.cancel_teal_box;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(764, 414);
+            this.pictureBox2.Location = new System.Drawing.Point(745, 389);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(26, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 89;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // btncancel
             // 
             this.btncancel.AccessibleName = "btncancel";
-            this.btncancel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btncancel.BackColor = System.Drawing.Color.White;
             this.btncancel.Highlight = true;
-            this.btncancel.Location = new System.Drawing.Point(759, 409);
+            this.btncancel.Location = new System.Drawing.Point(740, 384);
             this.btncancel.Name = "btncancel";
             this.btncancel.Size = new System.Drawing.Size(99, 37);
             this.btncancel.Style = MetroFramework.MetroColorStyle.Teal;
@@ -737,27 +639,22 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::PUPiMed.Properties.Resources.add_teal_box;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(645, 414);
+            this.pictureBox1.Location = new System.Drawing.Point(626, 389);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(26, 26);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 87;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnAdd
             // 
             this.btnAdd.AccessibleName = "btnadd";
-            this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAdd.Highlight = true;
-            this.btnAdd.Location = new System.Drawing.Point(640, 409);
+            this.btnAdd.Location = new System.Drawing.Point(621, 384);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(99, 37);
             this.btnAdd.Style = MetroFramework.MetroColorStyle.Teal;
@@ -768,27 +665,58 @@
             this.btnAdd.UseStyleColors = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // itemname
+            // status
             // 
-            this.itemname.AccessibleName = "ptype";
-            this.itemname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.itemname.FormattingEnabled = true;
-            this.itemname.ItemHeight = 23;
-            this.itemname.Location = new System.Drawing.Point(169, 340);
-            this.itemname.Name = "itemname";
-            this.itemname.Size = new System.Drawing.Size(185, 29);
-            this.itemname.Style = MetroFramework.MetroColorStyle.Teal;
-            this.itemname.TabIndex = 90;
-            this.itemname.UseSelectable = true;
+            this.status.ActiveControl = null;
+            this.status.BackColor = System.Drawing.Color.DarkCyan;
+            this.status.Location = new System.Drawing.Point(0, 79);
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(869, 29);
+            this.status.TabIndex = 101;
+            this.status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.status.UseCustomBackColor = true;
+            this.status.UseSelectable = true;
+            // 
+            // cbName
+            // 
+            this.cbName.FormattingEnabled = true;
+            this.cbName.ItemHeight = 23;
+            this.cbName.Location = new System.Drawing.Point(169, 342);
+            this.cbName.Name = "cbName";
+            this.cbName.Size = new System.Drawing.Size(185, 29);
+            this.cbName.Style = MetroFramework.MetroColorStyle.Teal;
+            this.cbName.TabIndex = 106;
+            this.cbName.UseSelectable = true;
+            this.cbName.UseStyleColors = true;
+            // 
+            // cbType
+            // 
+            this.cbType.DisplayMember = "Medicine";
+            this.cbType.FormattingEnabled = true;
+            this.cbType.ItemHeight = 23;
+            this.cbType.Items.AddRange(new object[] {
+            "Medicine",
+            "Supply",
+            "Equipment"});
+            this.cbType.Location = new System.Drawing.Point(169, 311);
+            this.cbType.Name = "cbType";
+            this.cbType.Size = new System.Drawing.Size(185, 29);
+            this.cbType.Style = MetroFramework.MetroColorStyle.Teal;
+            this.cbType.TabIndex = 105;
+            this.cbType.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.cbType.UseSelectable = true;
+            this.cbType.UseStyleColors = true;
+            this.cbType.ValueMember = "Medicine";
             // 
             // FormAddDistribItem
             // 
+            this.AcceptButton = this.btnAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 469);
-            this.Controls.Add(this.itemname);
+            this.ClientSize = new System.Drawing.Size(864, 447);
+            this.Controls.Add(this.cbName);
+            this.Controls.Add(this.cbType);
+            this.Controls.Add(this.status);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.pictureBox1);
@@ -822,12 +750,11 @@
             this.Controls.Add(this.itemcode);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
-            this.Controls.Add(this.itemtype);
             this.Controls.Add(this.metroLabel8);
-            this.Controls.Add(this.basicinfo);
             this.Controls.Add(this.lblAddpatient);
             this.Controls.Add(this.pictureBox12);
             this.Name = "FormAddDistribItem";
+            this.Resizable = false;
             this.ShowInTaskbar = false;
             this.Style = MetroFramework.MetroColorStyle.Teal;
             this.TransparencyKey = System.Drawing.Color.Empty;
@@ -843,9 +770,7 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialLabel lblAddpatient;
-        private MetroFramework.Controls.MetroTile basicinfo;
         private MetroFramework.Controls.MetroLabel metroLabel8;
-        private MetroFramework.Controls.MetroComboBox itemtype;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroTextBox itemcode;
@@ -880,6 +805,8 @@
         private MetroFramework.Controls.MetroButton btncancel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroButton btnAdd;
-        private MetroFramework.Controls.MetroComboBox itemname;
+        private MetroFramework.Controls.MetroTile status;
+        private MetroFramework.Controls.MetroComboBox cbName;
+        private MetroFramework.Controls.MetroComboBox cbType;
     }
 }

@@ -376,8 +376,9 @@ namespace PUPiMed
             this.Title.Text = "MEDICINE";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // FormAddMedicine
+            // FormAddItem
             // 
+            this.AcceptButton = this.btnAdd;
             this.AccessibleName = "frmAddMedicine";
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -405,7 +406,7 @@ namespace PUPiMed
             this.Controls.Add(this.lblCode);
             this.Controls.Add(this.icon);
             this.MaximizeBox = false;
-            this.Name = "FormAddMedicine";
+            this.Name = "FormAddItem";
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Teal;
             this.Load += new System.EventHandler(this.AddMedicine_Load);

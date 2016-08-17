@@ -36,6 +36,16 @@ namespace PUPiMed
             }
 
             Console.ReadLine();
+            
+
+            while (Console.ReadKey().KeyChar != 'x')
+            {
+                Console.Write("Enter code: ");
+                string x= Console.ReadLine();
+                Console.WriteLine(getNextCode(x)==null?"Invalid Code.":getNextCode(x));
+            }
+                
+            Console.ReadLine();
             */
         }
 
@@ -119,45 +129,49 @@ namespace PUPiMed
 
         public static string getNextCode(string prev)
         {
-            //@"^[\w\-\s]+$"       ----alphanumeric and space
-            //Regex.IsMatch(strCode, "^(?=.*?[0-9])(?=.*?[A-Za-z])[a-zA-Z0-9_-]+$")  --must be alphanumeric
-            //prev = Regex.Replace(prev, @"[^\w\-]", "");
-            if(Regex.IsMatch(prev, "^(?=.*?[0-9])(?=.*?[A-Za-z])[a-zA-Z0-9_-]+$"))
+            //string must be alphanumeric (atleast 1 number and 1 character)
+            //accepting alphanumeric character, underscore and dash
+            //returns null if false
+            if (Regex.IsMatch(prev, "^(?=.*?[0-9])(?=.*?[A-Za-z])[a-zA-Z0-9_-]+$"))
             {
                 string original = prev;
                 string num = string.Empty;
+                //reverse the string bc we only need to increment the rightmost collection of numbers in the string 
                 prev = reverse(prev);
 
                 //Get Numeric Values to be incremented
                 char p = '\0', c;
-                bool numFound = false;
+                //p will contain the previous character
+                //c will contain the current character
                 for (int i = 0; i < prev.Length; i++)
                 {
                     c = prev[i];
                     if (Char.IsDigit(c))
                     {
-                        numFound = true;
                         num += c;
                     }
                     else
                     {
-                        if (Char.IsNumber(p))
+                        //if current characteris not a digit, 
+                        //check if the previous one is, then break
+                        //that means we already found our num string
+                        if (Char.IsDigit(p))
                             break;
                     }
                     p = c;
                 }
-                if (!numFound)
-                    num = "000";
+                //reverse the num string to get the original value
                 num = reverse(num);
 
                 //increment
-                ulong nextInt = ulong.Parse(num);
-                ++nextInt;
+                ulong nextInt = ulong.Parse(num);  //ulong so u could store numbers upto 18446744073709551615 
+                ++nextInt;  
 
-                //For zeros
+                //For zeros ex: (0001) 
                 string newInt = nextInt.ToString();
+                //reverese so u could just add zeroes at the end of the real nos
                 newInt = reverse(newInt);
-                if (newInt.Length != num.Length)
+                if (newInt.Length < num.Length)
                 {
                     int i = 0;
                     int diff = num.Length - newInt.Length;
@@ -171,15 +185,14 @@ namespace PUPiMed
 
                 //place on original string
                 string nextCode = String.Empty;
-                if (numFound)
-                {
-                    //replace only the last occurence
-                    int loc = original.LastIndexOf(num);
-                    nextCode = original.Remove(loc, num.Length).Insert(loc, newInt);
-                    return nextCode;
-                }
+
+                //replace only the last occurence
+                //bc ex: prev: aaa000sss000, might result to aaa001sss001
+                int loc = original.LastIndexOf(num);
+                nextCode = original.Remove(loc, num.Length).Insert(loc, newInt);
+                return nextCode;
             }
-            
+
             return null;
         }
 

@@ -16,6 +16,7 @@ namespace PUPiMed
         public FormAddDistribItem()
         {
             InitializeComponent();
+            
         }
 
         private void FormAddDistribItem_Load(object sender, EventArgs e)
@@ -182,6 +183,16 @@ namespace PUPiMed
         private void btncancel_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
